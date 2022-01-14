@@ -1,0 +1,244 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+
+<http://edwardanderson.github.io/smalt/recipes.html> a schema:WebPage ;
+    schema:about <http://edwardanderson.github.io/smalt/recipes> .
+
+<http://edwardanderson.github.io/smalt/vocabulary.html> a schema:WebPage ;
+    schema:about <http://edwardanderson.github.io/smalt/vocabulary> .
+
+<http://edwardanderson.github.io/data/recipes.ttl> rdfs:label "recipe.ttl" .
+
+<http://edwardanderson.github.io/smalt/1.1.html> a schema:WebPage ;
+    rdfs:label "1.1: Schmeltze." ;
+    schema:about <https://arb.mpiwg-berlin.mpg.de/node/84579> .
+
+<http://edwardanderson.github.io/smalt/1.2.html> a schema:WebPage ;
+    rdfs:label "1.2: Argentum Musicum mit blau verschattieret." ;
+    schema:about <https://arb.mpiwg-berlin.mpg.de/node/84634> .
+
+<http://edwardanderson.github.io/smalt/1.3.html> a schema:WebPage ;
+    rdfs:label "1.3: Eschblau solt auch verschatiert werden." ;
+    schema:about <https://arb.mpiwg-berlin.mpg.de/node/84656> .
+
+<http://edwardanderson.github.io/smalt/1.4.html> a schema:WebPage ;
+    rdfs:label "1.4: Esch blau." ;
+    schema:about <https://arb.mpiwg-berlin.mpg.de/node/84581> .
+
+<http://edwardanderson.github.io/smalt/1.5> a schema:Recipe ;
+    rdfs:label "To make Blew Japan" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author <http://www.wikidata.org/entity/Q99674505> ;
+    schema:citation "Stalker and Parker, Treatise of Japanning and Varnishing, 1688: 23-24" ;
+    schema:datePublished "1688"^^schema:Date ;
+    schema:inLanguage <http://vocab.getty.edu/aat/300388277> ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301254483> ;
+    schema:keywords <http://vocab.getty.edu/aat/300012866>,
+        <http://vocab.getty.edu/aat/300013173>,
+        <http://vocab.getty.edu/aat/300013293>,
+        <http://vocab.getty.edu/aat/300013754>,
+        <http://vocab.getty.edu/aat/300014254>,
+        <http://vocab.getty.edu/aat/300053797>,
+        <http://vocab.getty.edu/aat/300053825>,
+        <http://vocab.getty.edu/aat/300128438> ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:category <http://vocab.getty.edu/aat/300435425> ;
+            schema:text "best and finest smalt" ],
+        [ a schema:Comment ;
+            schema:author <mailto:p.van.laar@rijksmuseum.nl> ;
+            schema:text "Painted Wood: History and Conservation, ieds. Valerie Dorge, F. Carey Howlett: mentions that sometimes coloured varnishes would be used to create striking effect. There is an example of a 1730 clock in which this blue japan is covered with a golden varnish to produce a green-ish hue. further on (p334) also describes smalt being used as a constituent of a coloured varnish" ],
+        <https://books.google.nl/books?id=aZ5QAgAAQBAJ&pg=PA182&lpg=PA182&dq=smalt+AND+blue+AND+recipe&source=bl&ots=qvrK8fchTC&sig=ACfU3U1v6RaG5aUau3DXtABAFBOX_hrLCg&hl=en&sa=X&ved=2ahUKEwj-t9uCqNnzAhWRDewKHW3NCJIQ6AF6BAguEAM#v=onepage&q=smalt&f=false> ;
+    schema:text "To make Blew-Japan. This task calls for several ingredients, and those too diversly prepared, before they can be admitted to the composition. In the front white-lead appears, which must be ground with Gum-water very finely on a Marble-stone. The next in rank is some of the best and finest Smalt, (to be met with in the colour-shops,) which you must mix with Isinglass-size; adding, of your white-lead so grinded, a quantity proportionable to the Blew you intermix with ‘em, or as you would have it be in strength of body. All these well stirred and temper’d together, being arrived to the consistence and thickness of common Paint, wash over your work with it, and, when perfectly dry, do the like three or four times, until you observe your Blew lies with a good fair body; if it should so fall out, that the Blew should be too pale and weak, put more Smalt, and no white-lead into your size. Having rush’t it very smooth strike it over again with this stronger Blew: soon after, yet not till it is very dry, with a clean pencil give it, at two several times, as many washings with the clearest Isinglass-size alone; and lay it aside for two days carefully covered, to preserve it from dust: the same diligence forget not in making White-japan, which does as absolutely require a covering, until either of them is secured by a proper mantle of their own, varnish, which is sufficient to guard ‘em against all injuries of dust or dirt. But to proceed: when you have warmed it by the fire, imploy again your cleanest pencil, dipt in a small portion of white-varnish, anointing your work seven or eight times; desist then for one day or two, after which was it again as often as before. Lay it aside for the same space of time, which being expired, repeat your washes the third and last time, as often as formerly. So many operations certainly deserve some leisure minuts, and a week at least must be pass’d over, before you dare presume to polish it. When that is done, with Lamblack and oyl clear it up, and lend it a glissening, smooth, and pleasant countenance. Observe, that your blews being more deep and dark, thin or pale, depends wholly upon the different quantities of white-lead, that are mixt with the Smalt after the first washes: for as a small proportion of Lead introduces the first, so a greater plenty occasions the latter. Let this serve for a general caution in laying either Blews, White, or any other colours with isinglass-size; let it not be too strong, but rather on the contrary very weak, but just sufficient to bind your colours, or make them stick on your work: for if it be otherwise, it will be apt to crack and flie off. But last of all, when you lay or wash with clear Isinglass, to keep your varnish from soaking into, or tarnishing your colours, then let it be of a strong and full body." .
+
+<http://edwardanderson.github.io/smalt/1.5.html> a schema:WebPage ;
+    rdfs:label "1.5: To make Blew Japan" ;
+    schema:about <http://edwardanderson.github.io/smalt/1.5> .
+
+<http://edwardanderson.github.io/smalt/recipes> a schema:Dataset ;
+    rdfs:label "Smalt Recipe Database" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author <mailto:p.van.laar@rijksmuseum.nl> ;
+    schema:dateCreated "2022-01-11"^^schema:Date ;
+    schema:distribution [ a schema:DataDownload ;
+            schema:contentUrl <http://edwardanderson.github.io/data/recipes.ttl> ;
+            schema:encodingFormat "text/turtle" ] ;
+    schema:hasPart <http://edwardanderson.github.io/smalt/1.1.html>,
+        <http://edwardanderson.github.io/smalt/1.2.html>,
+        <http://edwardanderson.github.io/smalt/1.3.html>,
+        <http://edwardanderson.github.io/smalt/1.4.html>,
+        <http://edwardanderson.github.io/smalt/1.5.html> .
+
+<http://edwardanderson.github.io/smalt/vocabulary> a schema:Dataset ;
+    rdfs:label "Vocabulary" ;
+    schema:hasPart <http://vocab.getty.edu/aat/300011029>,
+        <http://vocab.getty.edu/aat/300011691>,
+        <http://vocab.getty.edu/aat/300012866>,
+        <http://vocab.getty.edu/aat/300013173>,
+        <http://vocab.getty.edu/aat/300013293>,
+        <http://vocab.getty.edu/aat/300013445>,
+        <http://vocab.getty.edu/aat/300013754>,
+        <http://vocab.getty.edu/aat/300014254>,
+        <http://vocab.getty.edu/aat/300014341>,
+        <http://vocab.getty.edu/aat/300053090>,
+        <http://vocab.getty.edu/aat/300053797>,
+        <http://vocab.getty.edu/aat/300053825>,
+        <http://vocab.getty.edu/aat/300128438>,
+        <http://vocab.getty.edu/aat/300201088>,
+        <http://vocab.getty.edu/aat/300379980>,
+        <http://vocab.getty.edu/aat/300388277>,
+        <http://vocab.getty.edu/aat/300388344>,
+        <http://vocab.getty.edu/aat/300404385>,
+        <http://vocab.getty.edu/aat/300435425>,
+        <http://www.wikidata.org/entity/Q2508243>,
+        <http://www.wikidata.org/entity/Q99674505>,
+        <mailto:p.van.laar@rijksmuseum.nl> .
+
+<https://arb.mpiwg-berlin.mpg.de/node/84579> a schema:Recipe ;
+    rdfs:label "Schmeltze." ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author <http://www.wikidata.org/entity/Q2508243> ;
+    schema:citation "Valentin Boltz, Illuminierbuch, 1st half 17th c.: 19r" ;
+    schema:datePublished "1600/1649"^^schema:Date ;
+    schema:inLanguage <http://vocab.getty.edu/aat/300388344> ;
+    schema:isPartOf <https://id.rijksmuseum.nl/30168468> ;
+    schema:keywords [ a schema:Place ;
+            rdfs:label "High German lands" ],
+        <http://vocab.getty.edu/aat/300013293>,
+        <http://vocab.getty.edu/aat/300053090> ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.van.laar@rijksmuseum.nl> ;
+            schema:text [ rdfs:label "\"“don’t grind.” Not saying that it will lose it’s colour, but that it will “alle temperatur annimpt.” Does Boltz mean to say that a finer grade of smalt has a less pronounced influence on the colour of a pigment mixture? That would mean that not the smalt itself loses its colour, but just that its colouring role in a given mixtures decreases.\"" ] ] ;
+    schema:text "Schmeltze. Ein edel köstliches blau ist diß, das darff man nicht reiben, den es ist so zart, das es alle temperatur annimpt, das brauchet man auf liechte bleiche blaue ferblin, es wirdt gar selten in hochteutschen landen gefunden." .
+
+<https://arb.mpiwg-berlin.mpg.de/node/84581> a schema:Recipe ;
+    rdfs:label "Esch blau." ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author <http://www.wikidata.org/entity/Q2508243> ;
+    schema:citation "Valentin Boltz, Illuminierbuch, 1st half 17th c.: 19v" ;
+    schema:datePublished "1600/1649"^^schema:Date ;
+    schema:inLanguage <http://vocab.getty.edu/aat/300388344> ;
+    schema:isPartOf <https://id.rijksmuseum.nl/30168468> ;
+    schema:keywords [ rdfs:label "smalt ash" ],
+        [ rdfs:label "ash blue" ],
+        <http://vocab.getty.edu/aat/300011691>,
+        <http://vocab.getty.edu/aat/300013754>,
+        <http://vocab.getty.edu/aat/300014341>,
+        <http://vocab.getty.edu/aat/300201088>,
+        <http://vocab.getty.edu/aat/300379980> ;
+    schema:mentions [ rdfs:label "weapons" ],
+        [ rdfs:label "armor" ],
+        [ rdfs:label "water" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.van.laar@rijksmuseum.nl> ;
+            schema:text "smalt ash, talking about a different grade of smalt perhaps? Indicates that there are many more ash blue pigments besides smalt ash." ] ;
+    schema:text "Esch Blau. Schmeltzesch, die soll man wol durch ein Harsieblin sieben, das der sand sauber darauß kom, den es viel kieß in sich hat, das reibt man an mit eim wenig Bleiweiß, temperiers mit welcher temperatur du wöllest auß genommen mit Pergamentleim, dieses blau ist füglich anzustreichen zu Harnischen, wasseren, wocken, und waffen, es seind sonst viel ander Eschblau, die wol zu finden und breuchlich seind, darvon ohn not hie viel zu schreiben, den man wirdt sie in den Mixturen wol finden." .
+
+<https://arb.mpiwg-berlin.mpg.de/node/84634> a schema:Recipe ;
+    rdfs:label "Argentum Musicum mit blau verschattieret." ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author <http://www.wikidata.org/entity/Q2508243> ;
+    schema:citation "Valentin Boltz, Illuminierbuch, 1st half 17th c.: 27r" ;
+    schema:datePublished "1600/1649"^^schema:Date ;
+    schema:inLanguage <http://vocab.getty.edu/aat/300388344> ;
+    schema:isPartOf <https://id.rijksmuseum.nl/30168468> ;
+    schema:keywords [ rdfs:label "lasur blau" ],
+        [ a schema:ChemicalSubstance ;
+            rdfs:label "Argentum Musicum" ],
+        <http://vocab.getty.edu/aat/300011029>,
+        <http://vocab.getty.edu/aat/300013293>,
+        <http://vocab.getty.edu/aat/300404385> ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.van.laar@rijksmuseum.nl> ;
+            schema:text "Lasur blau. Does this refer to lazuli/lazurite, or lasur as in a scumble (lasur in German), or perhaps a glazing blue (google translate translate lasur blue as such)? It does not seem to refer to smalt at least, as he describes that in the sentence after." ] ;
+    schema:text "Argentum Musicum mit blau verschattieret. Lasur blau daß gantz wol gerieben ist, mit dem schattier aufs Argentum Musicum, grundtfalten mache mit der Edelen schmeltzblau, erhöhs mit gemalem silber. all ander blau magstu hierzu brauchen auf daß Argentum Musicum und sein grundtfalten mach mit legmoß oder Endich, oder Parißrot, oder Violbraun darnach ein farb satt ode licht ist." .
+
+<https://arb.mpiwg-berlin.mpg.de/node/84656> a schema:Recipe ;
+    rdfs:label "Eschblau solt auch verschatiert werden." ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author <http://www.wikidata.org/entity/Q2508243> ;
+    schema:citation "Valentin Boltz, Illuminierbuch, 1st half 17th c.: 29v" ;
+    schema:datePublished "1600/1649"^^schema:Date ;
+    schema:inLanguage <http://vocab.getty.edu/aat/300388344> ;
+    schema:isPartOf <https://id.rijksmuseum.nl/30168468> ;
+    schema:keywords [ rdfs:label "lasur blau" ],
+        [ rdfs:label "Ash blue" ],
+        <http://vocab.getty.edu/aat/300011029>,
+        <http://vocab.getty.edu/aat/300013293>,
+        <http://vocab.getty.edu/aat/300013445>,
+        <http://vocab.getty.edu/aat/300013754> ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.van.laar@rijksmuseum.nl> ;
+            schema:text "Makes the distinction here. Shade the ash blue with smalt. Indicating that smalt (at least noble smalt) and ash blue are two different things" ] ;
+    schema:text "Eschblau solt auch verschatiert werden. So du ein frölich liecht gewandt wilt machen, so streichs an mit Eschblau, schattier darauff mit der Edelen schmeltze, oder mit anderer guten Lasur, Erhöhs mit Bleiweiß, oder mit gemalem Silber, das gibt auch schön gewand, wen man auf Eschblau schattieret mit Safft grun oder andern grun." .
+
+<http://vocab.getty.edu/aat/300011691> a schema:ChemicalSubstance ;
+    rdfs:label "pebbles" .
+
+<http://vocab.getty.edu/aat/300012866> a schema:ChemicalSubstance ;
+    rdfs:label "gum-water" .
+
+<http://vocab.getty.edu/aat/300013173> rdfs:label "lamp black" .
+
+<http://vocab.getty.edu/aat/300013445> rdfs:label "sap green" .
+
+<http://vocab.getty.edu/aat/300014254> a schema:ChemicalSubstance ;
+    rdfs:label "oil" .
+
+<http://vocab.getty.edu/aat/300014341> a schema:ChemicalSubstance ;
+    rdfs:label "sand" .
+
+<http://vocab.getty.edu/aat/300053090> a schema:Action ;
+    rdfs:label "grinding" .
+
+<http://vocab.getty.edu/aat/300053797> a schema:Action ;
+    rdfs:label "japanning" .
+
+<http://vocab.getty.edu/aat/300053825> a schema:Action ;
+    rdfs:label "varnishing" .
+
+<http://vocab.getty.edu/aat/300128438> a schema:Thing ;
+    rdfs:label "marble grinding slab" .
+
+<http://vocab.getty.edu/aat/300201088> a schema:Thing ;
+    rdfs:label "sieve" .
+
+<http://vocab.getty.edu/aat/300379980> a schema:Action ;
+    rdfs:label "sieving" .
+
+<http://vocab.getty.edu/aat/300388277> a schema:Language ;
+    rdfs:label "English" .
+
+<http://vocab.getty.edu/aat/300404385> a schema:Action ;
+    rdfs:label "glazing" .
+
+<http://vocab.getty.edu/aat/300435425> rdfs:label "condition/examination description" .
+
+<http://www.wikidata.org/entity/Q99674505> a schema:Organization ;
+    rdfs:label "Stalker and Parker" .
+
+<http://vocab.getty.edu/aat/300011029> a schema:ChemicalSubstance ;
+    rdfs:label "silver" .
+
+<http://vocab.getty.edu/aat/300013754> a schema:ChemicalSubstance ;
+    rdfs:label "green",
+        "isinglass",
+        "lead white" .
+
+<http://vocab.getty.edu/aat/300388344> a schema:Language ;
+    rdfs:label "German" .
+
+<http://www.wikidata.org/entity/Q2508243> a schema:Person ;
+    rdfs:label "Valentin Boltz" .
+
+<mailto:p.van.laar@rijksmuseum.nl> rdfs:label "Paul van Laar" .
+
+<http://vocab.getty.edu/aat/300013293> a schema:ChemicalSubstance ;
+    rdfs:label "Smalt",
+        "smalt" ;
+    schema:alternateName "Edelen schmeltzblau",
+        "Edelen schmeltze",
+        "Schmeltzesch",
+        "edel köstliches blau",
+        "schmeltze",
+        "smalt" .
+
