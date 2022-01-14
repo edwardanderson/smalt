@@ -4,17 +4,63 @@
   <script type="application/ld+json">
    {
     "@context": [
-        "/home/edward/Desktop/code/mdul-json/ns/v1/mdul.json",
+        {
+            "dc": "http://purl.org/dc/elements/1.1/",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "id": "@id",
+            "type": "@type",
+            "_comment": {
+                "@id": "rdfs:comment"
+            },
+            "_content": {
+                "@id": "rdfs:comment"
+            },
+            "_describes": {
+                "@id": "schema:about"
+            },
+            "_format": {
+                "@id": "dc:format"
+            },
+            "_image": {
+                "@id": "schema:image"
+            },
+            "_label": {
+                "@id": "rdfs:label"
+            },
+            "_plugin": {
+                "@id": "schema:algorithm"
+            },
+            "_see_also": {
+                "@id": "rdfs:seeAlso"
+            },
+            "_value": {
+                "@id": "rdf:value"
+            },
+            "_Comment": {
+                "@id": "schema:Comment",
+                "@container": "@set"
+            },
+            "_Document": {
+                "@id": "schema:WebPage"
+            },
+            "_Image": {
+                "@id": "schema:ImageObject",
+                "@container": "@set"
+            },
+            "_Quote": {
+                "@id": "schema:Quotation",
+                "@container": "@set"
+            },
+            "_Table": {
+                "@id": "schema:Table",
+                "@container": "@set"
+            }
+        },
         {
             "@base": "http://edwardanderson.github.io/smalt/vocabulary.md",
             "@vocab": "http://edwardanderson.github.io/smalt/terms/"
-        },
-        {
-            "hasPart": [
-                "user:hasPart",
-                "user:hasPart",
-                "user:hasPart"
-            ]
         },
         "https://schema.org/docs/jsonldcontext.jsonld"
     ],
