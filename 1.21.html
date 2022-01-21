@@ -60,59 +60,71 @@
             }
         },
         {
-            "@base": "http://www.example.com/1.5.md",
+            "@base": "http://www.example.com/1.21.md",
             "@vocab": "http://www.example.com/terms/"
         },
         "https://schema.org/docs/jsonldcontext.jsonld"
     ],
-    "id": "1.5.html",
+    "id": "1.21.html",
     "type": "_Document",
     "_describes": {
-        "id": "1.5",
+        "id": "1.21",
         "type": "Recipe",
-        "identifier": "1.5",
-        "title": "To make Blew Japan",
+        "identifier": "1.21",
+        "title": "Om smalt te bereijden",
         "isPartOf": {
-            "id": "https://id.rijksmuseum.nl/301254483",
-            "type": "CreativeWork",
-            "_label": "Treatise of Japanning and Varnishing"
+            "_label": "`CreativeWork",
+            "identifier": "NL-AmrRAA_95.001_0850_0390",
+            "title": "Verligterij-boekje"
         },
-        "author": {
-            "type": "Person",
-            "_label": "Stalker and Parker"
-        },
-        "dateCreated": "1688",
+        "author": [
+            {
+                "type": "Person",
+                "_label": "Jan Dirksz. Zoutman"
+            },
+            {
+                "type": "Person",
+                "_label": "Simon Eikelenberg"
+            }
+        ],
         "inLanguage": {
             "type": "Language",
-            "_label": "English"
+            "_label": "Dutch"
+        },
+        "itemLocation": {
+            "type": "Place",
+            "_label": "Regionaal Archief Alkmaar, collectie Aanwinsten, Inv. Nr. 390"
         },
         "keywords": [
             {
-                "_label": "Smalt"
+                "_label": "rainwater"
             },
             {
-                "_label": "lead white"
+                "_label": "gum water"
             },
             {
-                "_label": "varnishing"
+                "_label": "brush"
             },
             {
-                "_label": "lamp black"
+                "_label": "illumination"
             },
             {
-                "_label": "oil"
+                "_label": "mapmaking"
             },
             {
-                "_label": "gum-water"
+                "_label": "grinding"
             },
             {
-                "_label": "marble grinding slab"
+                "_label": "washing"
             },
             {
-                "_label": "isinglass"
+                "_label": "masonry"
             },
             {
-                "_label": "japanning"
+                "_label": "landscapes"
+            },
+            {
+                "_label": "doodverf"
             }
         ],
         "about": {
@@ -121,7 +133,7 @@
         },
         "hasPart": {
             "type": "Quotation",
-            "text": "best and finest smalt",
+            "text": "wassinge van smalt",
             "about": {
                 "id": "http://vocab.getty.edu/aat/300179462",
                 "_label": "quality"
@@ -129,23 +141,23 @@
         },
         "subjectOf": {
             "type": "Comment",
-            "text": "Painted Wood: History and Conservation, ieds. Valerie Dorge, F. Carey Howlett: mentions that sometimes coloured varnishes would be used to create striking effect. There is an example of a 1730 clock in which this blue japan is covered with a golden varnish to produce a green-ish hue. further on (p334) also describes smalt being used as a constituent of a coloured varnish",
+            "text": "Describes how smalt shouldn’t be ground too much. Later makes distinguishments between several washings of smalt. Also notes that the brush should be wettened with binding medium before painting, as otherwise the smalt would not flow well from the brush.",
             "author": {
                 "id": "mailto:p.v.l@rijksmuseum.nl",
                 "_label": "Paul van Laar"
             }
         },
-        "_label": "To make Blew Japan"
+        "_label": "Om smalt te bereijden"
     }
 }
   </script>
   <link href="css/gh-pandoc.css" rel="stylesheet" type="text/css"/>
  </head>
  <body>
-  <section class="level1" id="to-make-blew-japan">
+  <section class="level1" id="om-smalt-te-bereijden">
    <h1>
     <a href="" title="Recipe">
-     To make Blew Japan
+     Om smalt te bereijden
     </a>
    </h1>
    <ul>
@@ -154,7 +166,7 @@
       identifier
      </a>     <ul>
       <li>
-       “1.5”
+       “1.21”
       </li>
      </ul>
     </li>
@@ -163,7 +175,7 @@
       title
      </a>     <ul>
       <li>
-       “To make Blew Japan”
+       “Om smalt te bereijden”
       </li>
      </ul>
     </li>
@@ -172,9 +184,27 @@
       isPartOf
      </a>     <ul>
       <li>
-       <a href="https://id.rijksmuseum.nl/301254483" title="CreativeWork">
-        Treatise of Japanning and Varnishing
-       </a>
+       `CreativeWork
+       <ul>
+        <li>
+         <a href="http://schema.org/identifier">
+          identifier
+         </a>         <ul>
+          <li>
+           “NL-AmrRAA_95.001_0850_0390”
+          </li>
+         </ul>
+        </li>
+        <li>
+         <a href="http://schema.org/title">
+          title
+         </a>         <ul>
+          <li>
+           “Verligterij-boekje”
+          </li>
+         </ul>
+        </li>
+       </ul>
       </li>
      </ul>
     </li>
@@ -184,17 +214,13 @@
      </a>     <ul>
       <li>
        <a href="" title="Person">
-        Stalker and Parker
+        Jan Dirksz. Zoutman
        </a>
       </li>
-     </ul>
-    </li>
-    <li>
-     <a href="http://schema.org/dateCreated">
-      dateCreated
-     </a>     <ul>
       <li>
-       “1688”
+       <a href="" title="Person">
+        Simon Eikelenberg
+       </a>
       </li>
      </ul>
     </li>
@@ -204,7 +230,18 @@
      </a>     <ul>
       <li>
        <a href="" title="Language">
-        English
+        Dutch
+       </a>
+      </li>
+     </ul>
+    </li>
+    <li>
+     <a href="http://schema.org/itemLocation">
+      itemLocation
+     </a>     <ul>
+      <li>
+       <a href="" title="Place">
+        Regionaal Archief Alkmaar, collectie Aanwinsten, Inv. Nr. 390
        </a>
       </li>
      </ul>
@@ -215,47 +252,52 @@
      </a>     <ul>
       <li>
        <a href="">
-        Smalt
+        rainwater
        </a>
       </li>
       <li>
        <a href="">
-        lead white
+        gum water
        </a>
       </li>
       <li>
        <a href="">
-        varnishing
+        brush
        </a>
       </li>
       <li>
        <a href="">
-        lamp black
+        illumination
        </a>
       </li>
       <li>
        <a href="">
-        oil
+        mapmaking
        </a>
       </li>
       <li>
        <a href="">
-        gum-water
+        grinding
        </a>
       </li>
       <li>
        <a href="">
-        marble grinding slab
+        washing
        </a>
       </li>
       <li>
        <a href="">
-        isinglass
+        masonry
        </a>
       </li>
       <li>
        <a href="">
-        japanning
+        landscapes
+       </a>
+      </li>
+      <li>
+       <a href="">
+        doodverf
        </a>
       </li>
      </ul>
@@ -287,7 +329,7 @@
           text
          </a>         <ul>
           <li>
-           “best and finest smalt”
+           “wassinge van smalt”
           </li>
          </ul>
         </li>
@@ -322,7 +364,7 @@
           text
          </a>         <ul>
           <li>
-           “Painted Wood: History and Conservation, ieds. Valerie Dorge, F. Carey Howlett: mentions that sometimes coloured varnishes would be used to create striking effect. There is an example of a 1730 clock in which this blue japan is covered with a golden varnish to produce a green-ish hue. further on (p334) also describes smalt being used as a constituent of a coloured varnish”
+           “Describes how smalt shouldn’t be ground too much. Later makes distinguishments between several washings of smalt. Also notes that the brush should be wettened with binding medium before painting, as otherwise the smalt would not flow well from the brush.”
           </li>
          </ul>
         </li>
