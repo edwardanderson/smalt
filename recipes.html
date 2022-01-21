@@ -18,7 +18,8 @@
                 "@id": "rdfs:comment"
             },
             "_describes": {
-                "@id": "schema:about"
+                "@id": "schema:about",
+                "@graph": "@id"
             },
             "_format": {
                 "@id": "dc:format"
@@ -59,8 +60,8 @@
             }
         },
         {
-            "@base": "http://edwardanderson.github.io/smalt/recipes.md",
-            "@vocab": "http://edwardanderson.github.io/smalt/terms/"
+            "@base": "www.example.com/recipes.md",
+            "@vocab": "www.example.com/terms/"
         },
         "https://schema.org/docs/jsonldcontext.jsonld"
     ],
@@ -108,6 +109,10 @@
             },
             "encodingFormat": "text/turtle"
         },
+        "conforms_to": {
+            "id": "http://schema.org",
+            "_label": "Schema.org"
+        },
         "_label": "Smalt Recipe Database"
     }
 }
@@ -123,8 +128,9 @@
    </h1>
    <ul>
     <li>
-     author
-     <ul>
+     <a href="http://schema.org/author">
+      author
+     </a>     <ul>
       <li>
        <a href="mailto:p.van.laar@rijksmuseum.nl">
         Paul van Laar
@@ -133,16 +139,18 @@
      </ul>
     </li>
     <li>
-     dateCreated
-     <ul>
+     <a href="http://schema.org/dateCreated">
+      dateCreated
+     </a>     <ul>
       <li>
        “2022-01-11”
       </li>
      </ul>
     </li>
     <li>
-     about
-     <ul>
+     <a href="http://schema.org/about">
+      about
+     </a>     <ul>
       <li>
        <a href="http://vocab.getty.edu/aat/300013293">
         Smalt
@@ -151,8 +159,9 @@
      </ul>
     </li>
     <li>
-     hasPart
-     <ul>
+     <a href="http://schema.org/hasPart">
+      hasPart
+     </a>     <ul>
       <li>
        <a href="1.1.html">
         1.1: Schmeltze.
@@ -181,16 +190,20 @@
      </ul>
     </li>
     <li>
-     distribution
-     <ul>
+     <a href="http://schema.org/distribution">
+      distribution
+     </a>     <ul>
       <li>
        <code>
-        DataDownload
+        <a href="http://schema.org/DataDownload">
+         DataDownload
+        </a>
        </code>
        <ul>
         <li>
-         contentUrl
-         <ul>
+         <a href="http://schema.org/contentUrl">
+          contentUrl
+         </a>         <ul>
           <li>
            <a href="data/recipes.ttl">
             recipe.ttl
@@ -199,14 +212,27 @@
          </ul>
         </li>
         <li>
-         encodingFormat
-         <ul>
+         <a href="http://schema.org/encodingFormat">
+          encodingFormat
+         </a>         <ul>
           <li>
            “text/turtle”
           </li>
          </ul>
         </li>
        </ul>
+      </li>
+     </ul>
+    </li>
+    <li>
+     <a href="http://purl.org/dc/terms/conformsTo">
+      conforms to
+     </a>
+     <ul>
+      <li>
+       <a href="http://schema.org">
+        Schema.org
+       </a>
       </li>
      </ul>
     </li>

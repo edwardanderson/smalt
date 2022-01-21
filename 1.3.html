@@ -18,7 +18,8 @@
                 "@id": "rdfs:comment"
             },
             "_describes": {
-                "@id": "schema:about"
+                "@id": "schema:about",
+                "@graph": "@id"
             },
             "_format": {
                 "@id": "dc:format"
@@ -59,8 +60,8 @@
             }
         },
         {
-            "@base": "http://edwardanderson.github.io/smalt/1.3.md",
-            "@vocab": "http://edwardanderson.github.io/smalt/terms/"
+            "@base": "www.example.com/1.3.md",
+            "@vocab": "www.example.com/terms/"
         },
         "https://schema.org/docs/jsonldcontext.jsonld"
     ],
@@ -139,16 +140,18 @@
    </h1>
    <ul>
     <li>
-     about
-     <ul>
+     <a href="http://schema.org/about">
+      about
+     </a>     <ul>
       <li>
        <a href="http://vocab.getty.edu/aat/300013293">
         smalt
        </a>
        <ul>
         <li>
-         alternateName
-         <ul>
+         <a href="http://schema.org/alternateName">
+          alternateName
+         </a>         <ul>
           <li>
            “Edelen schmeltze”
           </li>
@@ -159,24 +162,27 @@
      </ul>
     </li>
     <li>
-     citation
-     <ul>
+     <a href="http://schema.org/citation">
+      citation
+     </a>     <ul>
       <li>
        “Valentin Boltz, Illuminierbuch, 1st half 17th c.: 29v”
       </li>
      </ul>
     </li>
     <li>
-     text
-     <ul>
+     <a href="http://schema.org/text">
+      text
+     </a>     <ul>
       <li>
        “Eschblau solt auch verschatiert werden. So du ein frölich liecht gewandt wilt machen, so streichs an mit Eschblau, schattier darauff mit der Edelen schmeltze, oder mit anderer guten Lasur, Erhöhs mit Bleiweiß, oder mit gemalem Silber, das gibt auch schön gewand, wen man auf Eschblau schattieret mit Safft grun oder andern grun.”
       </li>
      </ul>
     </li>
     <li>
-     author
-     <ul>
+     <a href="http://schema.org/author">
+      author
+     </a>     <ul>
       <li>
        <a href="http://www.wikidata.org/entity/Q2508243">
         Valentin Boltz
@@ -185,8 +191,9 @@
      </ul>
     </li>
     <li>
-     isPartOf
-     <ul>
+     <a href="http://schema.org/isPartOf">
+      isPartOf
+     </a>     <ul>
       <li>
        <a class="uri" href="https://id.rijksmuseum.nl/30168468">
         https://id.rijksmuseum.nl/30168468
@@ -195,16 +202,18 @@
      </ul>
     </li>
     <li>
-     datePublished
-     <ul>
+     <a href="http://schema.org/datePublished">
+      datePublished
+     </a>     <ul>
       <li>
        “1600/1649”
       </li>
      </ul>
     </li>
     <li>
-     inLanguage
-     <ul>
+     <a href="http://schema.org/inLanguage">
+      inLanguage
+     </a>     <ul>
       <li>
        <a href="http://vocab.getty.edu/aat/300388344">
         German
@@ -213,8 +222,9 @@
      </ul>
     </li>
     <li>
-     keywords
-     <ul>
+     <a href="http://schema.org/keywords">
+      keywords
+     </a>     <ul>
       <li>
        Ash blue
       </li>
@@ -249,24 +259,29 @@
      </ul>
     </li>
     <li>
-     subjectOf
-     <ul>
+     <a href="http://schema.org/subjectOf">
+      subjectOf
+     </a>     <ul>
       <li>
        <code>
-        Comment
+        <a href="http://schema.org/Comment">
+         Comment
+        </a>
        </code>
        <ul>
         <li>
-         text
-         <ul>
+         <a href="http://schema.org/text">
+          text
+         </a>         <ul>
           <li>
            “Makes the distinction here. Shade the ash blue with smalt. Indicating that smalt (at least noble smalt) and ash blue are two different things”
           </li>
          </ul>
         </li>
         <li>
-         author
-         <ul>
+         <a href="http://schema.org/author">
+          author
+         </a>         <ul>
           <li>
            <a href="mailto:p.van.laar@rijksmuseum.nl">
             Paul van Laar

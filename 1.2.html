@@ -18,7 +18,8 @@
                 "@id": "rdfs:comment"
             },
             "_describes": {
-                "@id": "schema:about"
+                "@id": "schema:about",
+                "@graph": "@id"
             },
             "_format": {
                 "@id": "dc:format"
@@ -59,8 +60,8 @@
             }
         },
         {
-            "@base": "http://edwardanderson.github.io/smalt/1.2.md",
-            "@vocab": "http://edwardanderson.github.io/smalt/terms/"
+            "@base": "www.example.com/1.2.md",
+            "@vocab": "www.example.com/terms/"
         },
         "https://schema.org/docs/jsonldcontext.jsonld"
     ],
@@ -132,16 +133,18 @@
    </h1>
    <ul>
     <li>
-     about
-     <ul>
+     <a href="http://schema.org/about">
+      about
+     </a>     <ul>
       <li>
        <a href="http://vocab.getty.edu/aat/300013293">
         smalt
        </a>
        <ul>
         <li>
-         alternateName
-         <ul>
+         <a href="http://schema.org/alternateName">
+          alternateName
+         </a>         <ul>
           <li>
            “Edelen schmeltzblau”
           </li>
@@ -152,24 +155,27 @@
      </ul>
     </li>
     <li>
-     citation
-     <ul>
+     <a href="http://schema.org/citation">
+      citation
+     </a>     <ul>
       <li>
        “Valentin Boltz, Illuminierbuch, 1st half 17th c.: 27r”
       </li>
      </ul>
     </li>
     <li>
-     text
-     <ul>
+     <a href="http://schema.org/text">
+      text
+     </a>     <ul>
       <li>
        “Argentum Musicum mit blau verschattieret. Lasur blau daß gantz wol gerieben ist, mit dem schattier aufs Argentum Musicum, grundtfalten mache mit der Edelen schmeltzblau, erhöhs mit gemalem silber. all ander blau magstu hierzu brauchen auf daß Argentum Musicum und sein grundtfalten mach mit legmoß oder Endich, oder Parißrot, oder Violbraun darnach ein farb satt ode licht ist.”
       </li>
      </ul>
     </li>
     <li>
-     author
-     <ul>
+     <a href="http://schema.org/author">
+      author
+     </a>     <ul>
       <li>
        <a href="http://www.wikidata.org/entity/Q2508243">
         Valentin Boltz
@@ -178,8 +184,9 @@
      </ul>
     </li>
     <li>
-     isPartOf
-     <ul>
+     <a href="http://schema.org/isPartOf">
+      isPartOf
+     </a>     <ul>
       <li>
        <a class="uri" href="https://id.rijksmuseum.nl/30168468">
         https://id.rijksmuseum.nl/30168468
@@ -188,16 +195,18 @@
      </ul>
     </li>
     <li>
-     datePublished
-     <ul>
+     <a href="http://schema.org/datePublished">
+      datePublished
+     </a>     <ul>
       <li>
        “1600/1649”
       </li>
      </ul>
     </li>
     <li>
-     inLanguage
-     <ul>
+     <a href="http://schema.org/inLanguage">
+      inLanguage
+     </a>     <ul>
       <li>
        <a href="http://vocab.getty.edu/aat/300388344">
         German
@@ -206,8 +215,9 @@
      </ul>
     </li>
     <li>
-     keywords
-     <ul>
+     <a href="http://schema.org/keywords">
+      keywords
+     </a>     <ul>
       <li>
        <a href="" title="ChemicalSubstance">
         Argentum Musicum
@@ -234,24 +244,29 @@
      </ul>
     </li>
     <li>
-     subjectOf
-     <ul>
+     <a href="http://schema.org/subjectOf">
+      subjectOf
+     </a>     <ul>
       <li>
        <code>
-        Comment
+        <a href="http://schema.org/Comment">
+         Comment
+        </a>
        </code>
        <ul>
         <li>
-         text
-         <ul>
+         <a href="http://schema.org/text">
+          text
+         </a>         <ul>
           <li>
            “Lasur blau. Does this refer to lazuli/lazurite, or lasur as in a scumble (lasur in German), or perhaps a glazing blue (google translate translate lasur blue as such)? It does not seem to refer to smalt at least, as he describes that in the sentence after.”
           </li>
          </ul>
         </li>
         <li>
-         author
-         <ul>
+         <a href="http://schema.org/author">
+          author
+         </a>         <ul>
           <li>
            <a href="mailto:p.van.laar@rijksmuseum.nl">
             Paul van Laar

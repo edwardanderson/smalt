@@ -18,7 +18,8 @@
                 "@id": "rdfs:comment"
             },
             "_describes": {
-                "@id": "schema:about"
+                "@id": "schema:about",
+                "@graph": "@id"
             },
             "_format": {
                 "@id": "dc:format"
@@ -59,8 +60,8 @@
             }
         },
         {
-            "@base": "http://edwardanderson.github.io/smalt/1.4.md",
-            "@vocab": "http://edwardanderson.github.io/smalt/terms/"
+            "@base": "www.example.com/1.4.md",
+            "@vocab": "www.example.com/terms/"
         },
         "https://schema.org/docs/jsonldcontext.jsonld"
     ],
@@ -150,16 +151,18 @@
    </h1>
    <ul>
     <li>
-     about
-     <ul>
+     <a href="http://schema.org/about">
+      about
+     </a>     <ul>
       <li>
        <a href="http://vocab.getty.edu/aat/300013293">
         smalt
        </a>
        <ul>
         <li>
-         alternateName
-         <ul>
+         <a href="http://schema.org/alternateName">
+          alternateName
+         </a>         <ul>
           <li>
            “Schmeltzesch”
           </li>
@@ -170,24 +173,27 @@
      </ul>
     </li>
     <li>
-     citation
-     <ul>
+     <a href="http://schema.org/citation">
+      citation
+     </a>     <ul>
       <li>
        “Valentin Boltz, Illuminierbuch, 1st half 17th c.: 19v”
       </li>
      </ul>
     </li>
     <li>
-     text
-     <ul>
+     <a href="http://schema.org/text">
+      text
+     </a>     <ul>
       <li>
        “Esch Blau. Schmeltzesch, die soll man wol durch ein Harsieblin sieben, das der sand sauber darauß kom, den es viel kieß in sich hat, das reibt man an mit eim wenig Bleiweiß, temperiers mit welcher temperatur du wöllest auß genommen mit Pergamentleim, dieses blau ist füglich anzustreichen zu Harnischen, wasseren, wocken, und waffen, es seind sonst viel ander Eschblau, die wol zu finden und breuchlich seind, darvon ohn not hie viel zu schreiben, den man wirdt sie in den Mixturen wol finden.”
       </li>
      </ul>
     </li>
     <li>
-     author
-     <ul>
+     <a href="http://schema.org/author">
+      author
+     </a>     <ul>
       <li>
        <a href="http://www.wikidata.org/entity/Q2508243">
         Valentin Boltz
@@ -196,8 +202,9 @@
      </ul>
     </li>
     <li>
-     isPartOf
-     <ul>
+     <a href="http://schema.org/isPartOf">
+      isPartOf
+     </a>     <ul>
       <li>
        <a class="uri" href="https://id.rijksmuseum.nl/30168468">
         https://id.rijksmuseum.nl/30168468
@@ -206,16 +213,18 @@
      </ul>
     </li>
     <li>
-     datePublished
-     <ul>
+     <a href="http://schema.org/datePublished">
+      datePublished
+     </a>     <ul>
       <li>
        “1600/1649”
       </li>
      </ul>
     </li>
     <li>
-     inLanguage
-     <ul>
+     <a href="http://schema.org/inLanguage">
+      inLanguage
+     </a>     <ul>
       <li>
        <a href="http://vocab.getty.edu/aat/300388344">
         German
@@ -224,8 +233,9 @@
      </ul>
     </li>
     <li>
-     keywords
-     <ul>
+     <a href="http://schema.org/keywords">
+      keywords
+     </a>     <ul>
       <li>
        ash blue
       </li>
@@ -260,8 +270,9 @@
      </ul>
     </li>
     <li>
-     mentions
-     <ul>
+     <a href="http://schema.org/mentions">
+      mentions
+     </a>     <ul>
       <li>
        armor
       </li>
@@ -274,24 +285,29 @@
      </ul>
     </li>
     <li>
-     subjectOf
-     <ul>
+     <a href="http://schema.org/subjectOf">
+      subjectOf
+     </a>     <ul>
       <li>
        <code>
-        Comment
+        <a href="http://schema.org/Comment">
+         Comment
+        </a>
        </code>
        <ul>
         <li>
-         text
-         <ul>
+         <a href="http://schema.org/text">
+          text
+         </a>         <ul>
           <li>
            “smalt ash, talking about a different grade of smalt perhaps? Indicates that there are many more ash blue pigments besides smalt ash.”
           </li>
          </ul>
         </li>
         <li>
-         author
-         <ul>
+         <a href="http://schema.org/author">
+          author
+         </a>         <ul>
           <li>
            <a href="mailto:p.van.laar@rijksmuseum.nl">
             Paul van Laar

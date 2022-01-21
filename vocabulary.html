@@ -18,7 +18,8 @@
                 "@id": "rdfs:comment"
             },
             "_describes": {
-                "@id": "schema:about"
+                "@id": "schema:about",
+                "@graph": "@id"
             },
             "_format": {
                 "@id": "dc:format"
@@ -59,8 +60,8 @@
             }
         },
         {
-            "@base": "http://edwardanderson.github.io/smalt/vocabulary.md",
-            "@vocab": "http://edwardanderson.github.io/smalt/terms/"
+            "@base": "www.example.com/vocabulary.md",
+            "@vocab": "www.example.com/terms/"
         },
         "https://schema.org/docs/jsonldcontext.jsonld"
     ],
@@ -205,8 +206,9 @@
    </h1>
    <ul>
     <li>
-     hasPart
-     <ul>
+     <a href="http://schema.org/hasPart">
+      hasPart
+     </a>     <ul>
       <li>
        <a href="http://vocab.getty.edu/aat/300435425">
         condition/examination description
@@ -310,8 +312,9 @@
      </ul>
     </li>
     <li>
-     hasPart
-     <ul>
+     <a href="http://schema.org/hasPart">
+      hasPart
+     </a>     <ul>
       <li>
        <a href="http://vocab.getty.edu/aat/300388277" title="Language">
         English
@@ -325,8 +328,9 @@
      </ul>
     </li>
     <li>
-     hasPart
-     <ul>
+     <a href="http://schema.org/hasPart">
+      hasPart
+     </a>     <ul>
       <li>
        <a href="mailto:p.van.laar@rijksmuseum.nl">
         Paul van Laar

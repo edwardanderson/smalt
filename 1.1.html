@@ -18,7 +18,8 @@
                 "@id": "rdfs:comment"
             },
             "_describes": {
-                "@id": "schema:about"
+                "@id": "schema:about",
+                "@graph": "@id"
             },
             "_format": {
                 "@id": "dc:format"
@@ -59,8 +60,8 @@
             }
         },
         {
-            "@base": "http://edwardanderson.github.io/smalt/1.1.md",
-            "@vocab": "http://edwardanderson.github.io/smalt/terms/"
+            "@base": "www.example.com/1.1.md",
+            "@vocab": "www.example.com/terms/"
         },
         "https://schema.org/docs/jsonldcontext.jsonld"
     ],
@@ -117,7 +118,7 @@
         },
         "_label": "Schmeltze."
     }
-  }
+}
   </script>
   <link href="css/gh-pandoc.css" rel="stylesheet" type="text/css"/>
  </head>
@@ -130,16 +131,18 @@
    </h1>
    <ul>
     <li>
-     about
-     <ul>
+     <a href="http://schema.org/about">
+      about
+     </a>     <ul>
       <li>
        <a href="http://vocab.getty.edu/aat/300013293">
         smalt
        </a>
        <ul>
         <li>
-         alternateName
-         <ul>
+         <a href="http://schema.org/alternateName">
+          alternateName
+         </a>         <ul>
           <li>
            “edel köstliches blau”
           </li>
@@ -153,24 +156,27 @@
      </ul>
     </li>
     <li>
-     citation
-     <ul>
+     <a href="http://schema.org/citation">
+      citation
+     </a>     <ul>
       <li>
        “Valentin Boltz, Illuminierbuch, 1st half 17th c.: 19r”
       </li>
      </ul>
     </li>
     <li>
-     text
-     <ul>
+     <a href="http://schema.org/text">
+      text
+     </a>     <ul>
       <li>
        “Schmeltze. Ein edel köstliches blau ist diß, das darff man nicht reiben, den es ist so zart, das es alle temperatur annimpt, das brauchet man auf liechte bleiche blaue ferblin, es wirdt gar selten in hochteutschen landen gefunden.”
       </li>
      </ul>
     </li>
     <li>
-     isPartOf
-     <ul>
+     <a href="http://schema.org/isPartOf">
+      isPartOf
+     </a>     <ul>
       <li>
        <a class="uri" href="https://id.rijksmuseum.nl/30168468">
         https://id.rijksmuseum.nl/30168468
@@ -179,16 +185,18 @@
      </ul>
     </li>
     <li>
-     datePublished
-     <ul>
+     <a href="http://schema.org/datePublished">
+      datePublished
+     </a>     <ul>
       <li>
        “1600/1649”
       </li>
      </ul>
     </li>
     <li>
-     author
-     <ul>
+     <a href="http://schema.org/author">
+      author
+     </a>     <ul>
       <li>
        <a href="http://www.wikidata.org/entity/Q2508243">
         Valentin Boltz
@@ -197,8 +205,9 @@
      </ul>
     </li>
     <li>
-     inLanguage
-     <ul>
+     <a href="http://schema.org/inLanguage">
+      inLanguage
+     </a>     <ul>
       <li>
        <a href="http://vocab.getty.edu/aat/300388344">
         German
@@ -207,8 +216,9 @@
      </ul>
     </li>
     <li>
-     keywords
-     <ul>
+     <a href="http://schema.org/keywords">
+      keywords
+     </a>     <ul>
       <li>
        <a href="http://vocab.getty.edu/aat/300013293">
         Smalt
@@ -227,24 +237,29 @@
      </ul>
     </li>
     <li>
-     subjectOf
-     <ul>
+     <a href="http://schema.org/subjectOf">
+      subjectOf
+     </a>     <ul>
       <li>
        <code>
-        Comment
+        <a href="http://schema.org/Comment">
+         Comment
+        </a>
        </code>
        <ul>
         <li>
-         text
-         <ul>
+         <a href="http://schema.org/text">
+          text
+         </a>         <ul>
           <li>
            "“don’t grind.” Not saying that it will lose it’s colour, but that it will “alle temperatur annimpt.” Does Boltz mean to say that a finer grade of smalt has a less pronounced influence on the colour of a pigment mixture? That would mean that not the smalt itself loses its colour, but just that its colouring role in a given mixtures decreases."
           </li>
          </ul>
         </li>
         <li>
-         author
-         <ul>
+         <a href="http://schema.org/author">
+          author
+         </a>         <ul>
           <li>
            <a href="mailto:p.van.laar@rijksmuseum.nl">
             Paul van Laar
