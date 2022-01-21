@@ -1,175 +1,278 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
+@prefix user: <http://www.example.com/> .
 
-<http://edwardanderson.github.io/smalt/recipes.html> a schema:WebPage ;
-    schema:about <http://edwardanderson.github.io/smalt/recipes> .
+user:1.10.html a schema:WebPage ;
+    schema:about user:1.10 .
 
-<http://edwardanderson.github.io/smalt/vocabulary.html> a schema:WebPage ;
-    schema:about <http://edwardanderson.github.io/smalt/vocabulary> .
+user:1.11.html a schema:WebPage ;
+    schema:about user:1.11 .
 
-<http://edwardanderson.github.io/data/recipes.ttl> rdfs:label "recipe.ttl" .
+user:1.12.html a schema:WebPage ;
+    schema:about user:1.12 .
 
-<http://edwardanderson.github.io/smalt/1.1.html> a schema:WebPage ;
-    rdfs:label "1.1: Schmeltze." ;
-    schema:about <https://arb.mpiwg-berlin.mpg.de/node/84579> .
+user:1.13.html a schema:WebPage ;
+    schema:about user:1.13 .
 
-<http://edwardanderson.github.io/smalt/1.2.html> a schema:WebPage ;
-    rdfs:label "1.2: Argentum Musicum mit blau verschattieret." ;
-    schema:about <https://arb.mpiwg-berlin.mpg.de/node/84634> .
+user:1.14.html a schema:WebPage ;
+    schema:about user:1.14 .
 
-<http://edwardanderson.github.io/smalt/1.3.html> a schema:WebPage ;
-    rdfs:label "1.3: Eschblau solt auch verschatiert werden." ;
-    schema:about <https://arb.mpiwg-berlin.mpg.de/node/84656> .
+user:1.15.html a schema:WebPage ;
+    schema:about user:1.15 .
 
-<http://edwardanderson.github.io/smalt/1.4.html> a schema:WebPage ;
-    rdfs:label "1.4: Esch blau." ;
-    schema:about <https://arb.mpiwg-berlin.mpg.de/node/84581> .
+user:1.16.html a schema:WebPage ;
+    schema:about user:1.16 .
 
-<http://edwardanderson.github.io/smalt/1.5> a schema:Recipe ;
-    rdfs:label "To make Blew Japan" ;
-    schema:about <http://vocab.getty.edu/aat/300013293> ;
-    schema:author <http://www.wikidata.org/entity/Q99674505> ;
-    schema:citation "Stalker and Parker, Treatise of Japanning and Varnishing, 1688: 23-24" ;
-    schema:datePublished "1688"^^schema:Date ;
-    schema:inLanguage <http://vocab.getty.edu/aat/300388277> ;
-    schema:isPartOf <https://id.rijksmuseum.nl/301254483> ;
-    schema:keywords <http://vocab.getty.edu/aat/300012866>,
-        <http://vocab.getty.edu/aat/300013173>,
-        <http://vocab.getty.edu/aat/300013293>,
-        <http://vocab.getty.edu/aat/300013754>,
-        <http://vocab.getty.edu/aat/300014254>,
-        <http://vocab.getty.edu/aat/300053797>,
-        <http://vocab.getty.edu/aat/300053825>,
-        <http://vocab.getty.edu/aat/300128438> ;
-    schema:subjectOf [ a schema:Comment ;
-            schema:category <http://vocab.getty.edu/aat/300435425> ;
-            schema:text "best and finest smalt" ],
-        [ a schema:Comment ;
-            schema:author <mailto:p.van.laar@rijksmuseum.nl> ;
-            schema:text "Painted Wood: History and Conservation, ieds. Valerie Dorge, F. Carey Howlett: mentions that sometimes coloured varnishes would be used to create striking effect. There is an example of a 1730 clock in which this blue japan is covered with a golden varnish to produce a green-ish hue. further on (p334) also describes smalt being used as a constituent of a coloured varnish" ],
-        <https://books.google.nl/books?id=aZ5QAgAAQBAJ&pg=PA182&lpg=PA182&dq=smalt+AND+blue+AND+recipe&source=bl&ots=qvrK8fchTC&sig=ACfU3U1v6RaG5aUau3DXtABAFBOX_hrLCg&hl=en&sa=X&ved=2ahUKEwj-t9uCqNnzAhWRDewKHW3NCJIQ6AF6BAguEAM#v=onepage&q=smalt&f=false> ;
-    schema:text "To make Blew-Japan. This task calls for several ingredients, and those too diversly prepared, before they can be admitted to the composition. In the front white-lead appears, which must be ground with Gum-water very finely on a Marble-stone. The next in rank is some of the best and finest Smalt, (to be met with in the colour-shops,) which you must mix with Isinglass-size; adding, of your white-lead so grinded, a quantity proportionable to the Blew you intermix with ‘em, or as you would have it be in strength of body. All these well stirred and temper’d together, being arrived to the consistence and thickness of common Paint, wash over your work with it, and, when perfectly dry, do the like three or four times, until you observe your Blew lies with a good fair body; if it should so fall out, that the Blew should be too pale and weak, put more Smalt, and no white-lead into your size. Having rush’t it very smooth strike it over again with this stronger Blew: soon after, yet not till it is very dry, with a clean pencil give it, at two several times, as many washings with the clearest Isinglass-size alone; and lay it aside for two days carefully covered, to preserve it from dust: the same diligence forget not in making White-japan, which does as absolutely require a covering, until either of them is secured by a proper mantle of their own, varnish, which is sufficient to guard ‘em against all injuries of dust or dirt. But to proceed: when you have warmed it by the fire, imploy again your cleanest pencil, dipt in a small portion of white-varnish, anointing your work seven or eight times; desist then for one day or two, after which was it again as often as before. Lay it aside for the same space of time, which being expired, repeat your washes the third and last time, as often as formerly. So many operations certainly deserve some leisure minuts, and a week at least must be pass’d over, before you dare presume to polish it. When that is done, with Lamblack and oyl clear it up, and lend it a glissening, smooth, and pleasant countenance. Observe, that your blews being more deep and dark, thin or pale, depends wholly upon the different quantities of white-lead, that are mixt with the Smalt after the first washes: for as a small proportion of Lead introduces the first, so a greater plenty occasions the latter. Let this serve for a general caution in laying either Blews, White, or any other colours with isinglass-size; let it not be too strong, but rather on the contrary very weak, but just sufficient to bind your colours, or make them stick on your work: for if it be otherwise, it will be apt to crack and flie off. But last of all, when you lay or wash with clear Isinglass, to keep your varnish from soaking into, or tarnishing your colours, then let it be of a strong and full body." .
+user:1.17.html a schema:WebPage ;
+    schema:about user:1.17 .
 
-<http://edwardanderson.github.io/smalt/1.5.html> a schema:WebPage ;
-    rdfs:label "1.5: To make Blew Japan" ;
-    schema:about <http://edwardanderson.github.io/smalt/1.5> .
+user:1.18.html a schema:WebPage ;
+    schema:about user:1.18 .
 
-<http://edwardanderson.github.io/smalt/recipes> a schema:Dataset ;
-    rdfs:label "Smalt Recipe Database" ;
-    schema:about <http://vocab.getty.edu/aat/300013293> ;
-    schema:author <mailto:p.van.laar@rijksmuseum.nl> ;
-    schema:dateCreated "2022-01-11"^^schema:Date ;
-    schema:distribution [ a schema:DataDownload ;
-            schema:contentUrl <http://edwardanderson.github.io/data/recipes.ttl> ;
-            schema:encodingFormat "text/turtle" ] ;
-    schema:hasPart <http://edwardanderson.github.io/smalt/1.1.html>,
-        <http://edwardanderson.github.io/smalt/1.2.html>,
-        <http://edwardanderson.github.io/smalt/1.3.html>,
-        <http://edwardanderson.github.io/smalt/1.4.html>,
-        <http://edwardanderson.github.io/smalt/1.5.html> .
+user:1.19.html a schema:WebPage ;
+    schema:about user:1.19 .
 
-<http://edwardanderson.github.io/smalt/vocabulary> a schema:Dataset ;
-    rdfs:label "Vocabulary" ;
-    schema:hasPart <http://vocab.getty.edu/aat/300011029>,
-        <http://vocab.getty.edu/aat/300011691>,
-        <http://vocab.getty.edu/aat/300012866>,
-        <http://vocab.getty.edu/aat/300013173>,
-        <http://vocab.getty.edu/aat/300013293>,
-        <http://vocab.getty.edu/aat/300013445>,
-        <http://vocab.getty.edu/aat/300013754>,
-        <http://vocab.getty.edu/aat/300014254>,
-        <http://vocab.getty.edu/aat/300014341>,
-        <http://vocab.getty.edu/aat/300053090>,
-        <http://vocab.getty.edu/aat/300053797>,
-        <http://vocab.getty.edu/aat/300053825>,
-        <http://vocab.getty.edu/aat/300128438>,
-        <http://vocab.getty.edu/aat/300201088>,
-        <http://vocab.getty.edu/aat/300379980>,
-        <http://vocab.getty.edu/aat/300388277>,
-        <http://vocab.getty.edu/aat/300388344>,
-        <http://vocab.getty.edu/aat/300404385>,
-        <http://vocab.getty.edu/aat/300435425>,
-        <http://www.wikidata.org/entity/Q2508243>,
-        <http://www.wikidata.org/entity/Q99674505>,
-        <mailto:p.van.laar@rijksmuseum.nl> .
+user:1.20.html a schema:WebPage ;
+    schema:about user:1.20 .
 
-<https://arb.mpiwg-berlin.mpg.de/node/84579> a schema:Recipe ;
-    rdfs:label "Schmeltze." ;
-    schema:about <http://vocab.getty.edu/aat/300013293> ;
-    schema:author <http://www.wikidata.org/entity/Q2508243> ;
-    schema:citation "Valentin Boltz, Illuminierbuch, 1st half 17th c.: 19r" ;
-    schema:datePublished "1600/1649"^^schema:Date ;
-    schema:inLanguage <http://vocab.getty.edu/aat/300388344> ;
-    schema:isPartOf <https://id.rijksmuseum.nl/30168468> ;
-    schema:keywords [ a schema:Place ;
-            rdfs:label "High German lands" ],
-        <http://vocab.getty.edu/aat/300013293>,
-        <http://vocab.getty.edu/aat/300053090> ;
-    schema:subjectOf [ a schema:Comment ;
-            schema:author <mailto:p.van.laar@rijksmuseum.nl> ;
-            schema:text [ rdfs:label "\"“don’t grind.” Not saying that it will lose it’s colour, but that it will “alle temperatur annimpt.” Does Boltz mean to say that a finer grade of smalt has a less pronounced influence on the colour of a pigment mixture? That would mean that not the smalt itself loses its colour, but just that its colouring role in a given mixtures decreases.\"" ] ] ;
-    schema:text "Schmeltze. Ein edel köstliches blau ist diß, das darff man nicht reiben, den es ist so zart, das es alle temperatur annimpt, das brauchet man auf liechte bleiche blaue ferblin, es wirdt gar selten in hochteutschen landen gefunden." .
+user:1.21.html a schema:WebPage ;
+    schema:about user:1.21 .
 
-<https://arb.mpiwg-berlin.mpg.de/node/84581> a schema:Recipe ;
-    rdfs:label "Esch blau." ;
-    schema:about <http://vocab.getty.edu/aat/300013293> ;
-    schema:author <http://www.wikidata.org/entity/Q2508243> ;
-    schema:citation "Valentin Boltz, Illuminierbuch, 1st half 17th c.: 19v" ;
-    schema:datePublished "1600/1649"^^schema:Date ;
-    schema:inLanguage <http://vocab.getty.edu/aat/300388344> ;
-    schema:isPartOf <https://id.rijksmuseum.nl/30168468> ;
-    schema:keywords [ rdfs:label "smalt ash" ],
-        [ rdfs:label "ash blue" ],
-        <http://vocab.getty.edu/aat/300011691>,
-        <http://vocab.getty.edu/aat/300013754>,
-        <http://vocab.getty.edu/aat/300014341>,
-        <http://vocab.getty.edu/aat/300201088>,
-        <http://vocab.getty.edu/aat/300379980> ;
-    schema:mentions [ rdfs:label "weapons" ],
-        [ rdfs:label "armor" ],
-        [ rdfs:label "water" ] ;
-    schema:subjectOf [ a schema:Comment ;
-            schema:author <mailto:p.van.laar@rijksmuseum.nl> ;
-            schema:text "smalt ash, talking about a different grade of smalt perhaps? Indicates that there are many more ash blue pigments besides smalt ash." ] ;
-    schema:text "Esch Blau. Schmeltzesch, die soll man wol durch ein Harsieblin sieben, das der sand sauber darauß kom, den es viel kieß in sich hat, das reibt man an mit eim wenig Bleiweiß, temperiers mit welcher temperatur du wöllest auß genommen mit Pergamentleim, dieses blau ist füglich anzustreichen zu Harnischen, wasseren, wocken, und waffen, es seind sonst viel ander Eschblau, die wol zu finden und breuchlich seind, darvon ohn not hie viel zu schreiben, den man wirdt sie in den Mixturen wol finden." .
+user:1.22.html a schema:WebPage ;
+    schema:about user:1.22 .
 
-<https://arb.mpiwg-berlin.mpg.de/node/84634> a schema:Recipe ;
-    rdfs:label "Argentum Musicum mit blau verschattieret." ;
-    schema:about <http://vocab.getty.edu/aat/300013293> ;
-    schema:author <http://www.wikidata.org/entity/Q2508243> ;
-    schema:citation "Valentin Boltz, Illuminierbuch, 1st half 17th c.: 27r" ;
-    schema:datePublished "1600/1649"^^schema:Date ;
-    schema:inLanguage <http://vocab.getty.edu/aat/300388344> ;
-    schema:isPartOf <https://id.rijksmuseum.nl/30168468> ;
-    schema:keywords [ rdfs:label "lasur blau" ],
-        [ a schema:ChemicalSubstance ;
-            rdfs:label "Argentum Musicum" ],
-        <http://vocab.getty.edu/aat/300011029>,
-        <http://vocab.getty.edu/aat/300013293>,
-        <http://vocab.getty.edu/aat/300404385> ;
-    schema:subjectOf [ a schema:Comment ;
-            schema:author <mailto:p.van.laar@rijksmuseum.nl> ;
-            schema:text "Lasur blau. Does this refer to lazuli/lazurite, or lasur as in a scumble (lasur in German), or perhaps a glazing blue (google translate translate lasur blue as such)? It does not seem to refer to smalt at least, as he describes that in the sentence after." ] ;
-    schema:text "Argentum Musicum mit blau verschattieret. Lasur blau daß gantz wol gerieben ist, mit dem schattier aufs Argentum Musicum, grundtfalten mache mit der Edelen schmeltzblau, erhöhs mit gemalem silber. all ander blau magstu hierzu brauchen auf daß Argentum Musicum und sein grundtfalten mach mit legmoß oder Endich, oder Parißrot, oder Violbraun darnach ein farb satt ode licht ist." .
+user:1.23.html a schema:WebPage ;
+    schema:about user:1.23 .
 
-<https://arb.mpiwg-berlin.mpg.de/node/84656> a schema:Recipe ;
-    rdfs:label "Eschblau solt auch verschatiert werden." ;
-    schema:about <http://vocab.getty.edu/aat/300013293> ;
-    schema:author <http://www.wikidata.org/entity/Q2508243> ;
-    schema:citation "Valentin Boltz, Illuminierbuch, 1st half 17th c.: 29v" ;
-    schema:datePublished "1600/1649"^^schema:Date ;
-    schema:inLanguage <http://vocab.getty.edu/aat/300388344> ;
-    schema:isPartOf <https://id.rijksmuseum.nl/30168468> ;
-    schema:keywords [ rdfs:label "lasur blau" ],
-        [ rdfs:label "Ash blue" ],
-        <http://vocab.getty.edu/aat/300011029>,
-        <http://vocab.getty.edu/aat/300013293>,
-        <http://vocab.getty.edu/aat/300013445>,
-        <http://vocab.getty.edu/aat/300013754> ;
-    schema:subjectOf [ a schema:Comment ;
-            schema:author <mailto:p.van.laar@rijksmuseum.nl> ;
-            schema:text "Makes the distinction here. Shade the ash blue with smalt. Indicating that smalt (at least noble smalt) and ash blue are two different things" ] ;
-    schema:text "Eschblau solt auch verschatiert werden. So du ein frölich liecht gewandt wilt machen, so streichs an mit Eschblau, schattier darauff mit der Edelen schmeltze, oder mit anderer guten Lasur, Erhöhs mit Bleiweiß, oder mit gemalem Silber, das gibt auch schön gewand, wen man auf Eschblau schattieret mit Safft grun oder andern grun." .
+user:1.24.html a schema:WebPage ;
+    schema:about user:1.24 .
+
+user:1.25.html a schema:WebPage ;
+    schema:about user:1.25 .
+
+user:1.26.html a schema:WebPage ;
+    schema:about user:1.26 .
+
+user:1.27.html a schema:WebPage ;
+    schema:about user:1.27 .
+
+user:1.28.html a schema:WebPage ;
+    schema:about user:1.28 .
+
+user:1.29.html a schema:WebPage ;
+    schema:about user:1.29 .
+
+user:1.30.html a schema:WebPage ;
+    schema:about user:1.30 .
+
+user:1.31.html a schema:WebPage ;
+    schema:about user:1.31 .
+
+user:1.32.html a schema:WebPage ;
+    schema:about user:1.32 .
+
+user:1.33.html a schema:WebPage ;
+    schema:about user:1.33 .
+
+user:1.34.html a schema:WebPage ;
+    schema:about user:1.34 .
+
+user:1.35.html a schema:WebPage ;
+    schema:about user:1.35 .
+
+user:1.36.html a schema:WebPage ;
+    schema:about user:1.36 .
+
+user:1.37.html a schema:WebPage ;
+    schema:about user:1.37 .
+
+user:1.38.html a schema:WebPage ;
+    schema:about user:1.38 .
+
+user:1.39.html a schema:WebPage ;
+    schema:about user:1.39 .
+
+user:1.40.html a schema:WebPage ;
+    schema:about user:1.40 .
+
+user:1.41.html a schema:WebPage ;
+    schema:about user:1.41 .
+
+user:1.42.html a schema:WebPage ;
+    schema:about user:1.42 .
+
+user:1.43.html a schema:WebPage ;
+    schema:about user:1.43 .
+
+user:1.44.html a schema:WebPage ;
+    schema:about user:1.44 .
+
+user:1.45.html a schema:WebPage ;
+    schema:about user:1.45 .
+
+user:1.46.html a schema:WebPage ;
+    schema:about user:1.46 .
+
+user:1.47.html a schema:WebPage ;
+    schema:about user:1.47 .
+
+user:1.48.html a schema:WebPage ;
+    schema:about user:1.48 .
+
+user:1.49.html a schema:WebPage ;
+    schema:about user:1.49 .
+
+user:1.50.html a schema:WebPage ;
+    schema:about user:1.50 .
+
+user:1.51.html a schema:WebPage ;
+    schema:about user:1.51 .
+
+user:1.52.html a schema:WebPage ;
+    schema:about user:1.52 .
+
+user:1.53.html a schema:WebPage ;
+    schema:about user:1.53 .
+
+user:1.54.html a schema:WebPage ;
+    schema:about user:1.54 .
+
+user:1.55.html a schema:WebPage ;
+    schema:about user:1.55 .
+
+user:1.56.html a schema:WebPage ;
+    schema:about user:1.56 .
+
+user:1.57.html a schema:WebPage ;
+    schema:about user:1.57 .
+
+user:1.58.html a schema:WebPage ;
+    schema:about user:1.58 .
+
+user:1.59.html a schema:WebPage ;
+    schema:about user:1.59 .
+
+user:1.6.html a schema:WebPage ;
+    schema:about user:1.6 .
+
+user:1.60.html a schema:WebPage ;
+    schema:about user:1.60 .
+
+user:1.61.html a schema:WebPage ;
+    schema:about user:1.61 .
+
+user:1.62.html a schema:WebPage ;
+    schema:about user:1.62 .
+
+user:1.63.html a schema:WebPage ;
+    schema:about user:1.63 .
+
+user:1.64.html a schema:WebPage ;
+    schema:about user:1.64 .
+
+user:1.65.html a schema:WebPage ;
+    schema:about user:1.65 .
+
+user:1.66.html a schema:WebPage ;
+    schema:about user:1.66 .
+
+user:1.67.html a schema:WebPage ;
+    schema:about user:1.67 .
+
+user:1.68.html a schema:WebPage ;
+    schema:about user:1.68 .
+
+user:1.69.html a schema:WebPage ;
+    schema:about user:1.69 .
+
+user:1.7.html a schema:WebPage ;
+    schema:about user:1.7 .
+
+user:1.70.html a schema:WebPage ;
+    schema:about user:1.70 .
+
+user:1.71.html a schema:WebPage ;
+    schema:about user:1.71 .
+
+user:1.72.html a schema:WebPage ;
+    schema:about user:1.72 .
+
+user:1.73.html a schema:WebPage ;
+    schema:about user:1.73 .
+
+user:1.74.html a schema:WebPage ;
+    schema:about user:1.74 .
+
+user:1.75.html a schema:WebPage ;
+    schema:about user:1.75 .
+
+user:1.76.html a schema:WebPage ;
+    schema:about user:1.76 .
+
+user:1.77.html a schema:WebPage ;
+    schema:about user:1.77 .
+
+user:1.78.html a schema:WebPage ;
+    schema:about user:1.78 .
+
+user:1.79.html a schema:WebPage ;
+    schema:about user:1.79 .
+
+user:1.8.html a schema:WebPage ;
+    schema:about user:1.8 .
+
+user:1.80.html a schema:WebPage ;
+    schema:about user:1.80 .
+
+user:1.81.html a schema:WebPage ;
+    schema:about user:1.81 .
+
+user:1.82.html a schema:WebPage ;
+    schema:about user:1.82 .
+
+user:1.83.html a schema:WebPage ;
+    schema:about user:1.83 .
+
+user:1.84.html a schema:WebPage ;
+    schema:about user:1.84 .
+
+user:1.85.html a schema:WebPage ;
+    schema:about user:1.85 .
+
+user:1.86.html a schema:WebPage ;
+    schema:about user:1.86 .
+
+user:1.87.html a schema:WebPage ;
+    schema:about user:1.87 .
+
+user:1.88.html a schema:WebPage ;
+    schema:about user:1.88 .
+
+user:1.89.html a schema:WebPage ;
+    schema:about user:1.89 .
+
+user:1.9.html a schema:WebPage ;
+    schema:about user:1.9 .
+
+user:1.90.html a schema:WebPage ;
+    schema:about user:1.90 .
+
+user:1.91.html a schema:WebPage ;
+    schema:about user:1.91 .
+
+user:1.92.html a schema:WebPage ;
+    schema:about user:1.92 .
+
+user:recipes.html a schema:WebPage ;
+    schema:about user:recipes .
+
+user:vocabulary.html a schema:WebPage ;
+    schema:about user:vocabulary .
+
+<http://schema.org> rdfs:label "Schema.org" .
+
+<http://vocab.getty.edu/aat/300011029> a schema:ChemicalSubstance ;
+    rdfs:label "silver" .
 
 <http://vocab.getty.edu/aat/300011691> a schema:ChemicalSubstance ;
     rdfs:label "pebbles" .
@@ -180,6 +283,11 @@
 <http://vocab.getty.edu/aat/300013173> rdfs:label "lamp black" .
 
 <http://vocab.getty.edu/aat/300013445> rdfs:label "sap green" .
+
+<http://vocab.getty.edu/aat/300013754> a schema:ChemicalSubstance ;
+    rdfs:label "green",
+        "isinglass",
+        "lead white" .
 
 <http://vocab.getty.edu/aat/300014254> a schema:ChemicalSubstance ;
     rdfs:label "oil" .
@@ -196,6 +304,8 @@
 <http://vocab.getty.edu/aat/300053825> a schema:Action ;
     rdfs:label "varnishing" .
 
+<http://vocab.getty.edu/aat/300055694> rdfs:label "prices" .
+
 <http://vocab.getty.edu/aat/300128438> a schema:Thing ;
     rdfs:label "marble grinding slab" .
 
@@ -208,29 +318,1992 @@
 <http://vocab.getty.edu/aat/300388277> a schema:Language ;
     rdfs:label "English" .
 
+<http://vocab.getty.edu/aat/300388344> a schema:Language ;
+    rdfs:label "German" .
+
 <http://vocab.getty.edu/aat/300404385> a schema:Action ;
     rdfs:label "glazing" .
 
 <http://vocab.getty.edu/aat/300435425> rdfs:label "condition/examination description" .
 
-<http://www.wikidata.org/entity/Q99674505> a schema:Organization ;
-    rdfs:label "Stalker and Parker" .
+user:1.1 a schema:Recipe ;
+    rdfs:label "Schmeltze." ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Valentin Boltz" ] ;
+    schema:identifier "1.1" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "German" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/30168468> ;
+    schema:keywords [ rdfs:label "Smalt" ],
+        [ rdfs:label "grinding" ],
+        [ rdfs:label "High German lands" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text [ rdfs:label "\"“don’t grind.” Not saying that it will lose it’s colour, but that it will “alle temperatur annimpt.” Does Boltz mean to say that a finer grade of smalt has a less pronounced influence on the colour of a pigment mixture? That would mean that not the smalt itself loses its colour, but just that its colouring role in a given mixtures decreases.\"" ] ] ;
+    schema:title "Schmeltze." .
 
-<http://vocab.getty.edu/aat/300011029> a schema:ChemicalSubstance ;
-    rdfs:label "silver" .
+user:1.1.html a schema:WebPage ;
+    rdfs:label "1.1: Schmeltze." ;
+    schema:about user:1.1 .
 
-<http://vocab.getty.edu/aat/300013754> a schema:ChemicalSubstance ;
-    rdfs:label "green",
-        "isinglass",
-        "lead white" .
+user:1.10 a schema:Recipe ;
+    rdfs:label "To paint the best Blew and glaze with Ultramarine" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Stalker and Parker" ] ;
+    schema:dateCreated "1688"^^schema:Date ;
+    schema:hasPart [ a schema:Quotation ;
+            schema:about <http://vocab.getty.edu/aat/300179462> ;
+            schema:text "fine smalt" ] ;
+    schema:identifier "1.10" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "English" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301254483> ;
+    schema:keywords [ rdfs:label "smalt" ],
+        [ rdfs:label "white" ],
+        [ rdfs:label "glazing" ],
+        [ rdfs:label "japanning" ],
+        [ rdfs:label "ultramarine" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "different oils:”thick nut-oyl\" otherwise “varnish”" ] ;
+    schema:title "To paint the best Blew and glaze with Ultramarine" .
 
-<http://vocab.getty.edu/aat/300388344> a schema:Language ;
-    rdfs:label "German" .
+user:1.11 a schema:Recipe ;
+    rdfs:label "To glaze and paint the best Purple-Drapery" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Stalker and Parker" ] ;
+    schema:dateCreated "1688"^^schema:Date ;
+    schema:identifier "1.11" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "English" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301254483> ;
+    schema:keywords [ rdfs:label "purple" ],
+        [ rdfs:label "drapery" ],
+        [ rdfs:label "white" ],
+        [ rdfs:label "glazing" ],
+        [ rdfs:label "ultramarine" ],
+        [ rdfs:label "carmine" ],
+        [ rdfs:label "japanning" ],
+        [ rdfs:label "red lake" ] ;
+    schema:title "To glaze and paint the best Purple-Drapery" .
+
+user:1.12 a schema:Recipe ;
+    rdfs:label "Purple without glazing" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Stalker and Parker" ] ;
+    schema:dateCreated "1688"^^schema:Date ;
+    schema:identifier "1.12" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "English" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301254483> ;
+    schema:keywords [ rdfs:label "purple" ],
+        [ rdfs:label "lake" ],
+        [ rdfs:label "white" ],
+        [ rdfs:label "japanning" ],
+        [ rdfs:label "drapery" ],
+        [ rdfs:label "glazing" ],
+        [ rdfs:label "smalt" ] ;
+    schema:title "Purple without glazing" .
+
+user:1.13 a schema:Recipe ;
+    rdfs:label "Voorbereiding der aardachtige basis met de verfstoffe" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "S.F. Hermbstädt" ] ;
+    schema:dateCreated "1823"^^schema:Date ;
+    schema:identifier "1.13" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301254483> ;
+    schema:keywords [ rdfs:label "minium" ],
+        [ rdfs:label "smalt" ],
+        [ rdfs:label "pastel" ],
+        [ rdfs:label "grinding" ],
+        [ rdfs:label "berlin blue" ],
+        [ rdfs:label "bergblauw" ],
+        [ rdfs:label "glue" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "Writes about how the pigments for pastels should be ground finely in water. This is okay for many pigments, it states, but can be problematic for smalt (the grinding or the water?). Does not expand on these statements." ] ;
+    schema:title "Voorbereiding der aardachtige basis met de verfstoffe" .
+
+user:1.14 a schema:Recipe ;
+    rdfs:label "Bereiding der Koleuren" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "J.A. de Chalmot" ],
+        [ a schema:Person ;
+            rdfs:label "Noël Chomel" ] ;
+    schema:dateCreated "1778"^^schema:Date ;
+    schema:identifier "1.14" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <http://www.worldcat.org/oclc/63446491> ;
+    schema:keywords [ rdfs:label "oil" ],
+        [ rdfs:label "stove" ],
+        [ rdfs:label "mortar" ],
+        [ rdfs:label "grinding slab" ],
+        [ rdfs:label "drying" ],
+        [ rdfs:label "impalpable" ],
+        [ rdfs:label "smalt" ],
+        [ rdfs:label "fondans" ],
+        [ rdfs:label "grinding" ],
+        [ rdfs:label "enameling" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "talking about quantitiy of pigment vs. fondans. Fondans is described on p. 2826, it’s a colourless base material for enameling, consisting of”glas, gezuiverde salpeter, en borax.\"" ] ;
+    schema:title "Bereiding der Koleuren" .
+
+user:1.15 a schema:Recipe ;
+    rdfs:label "Ander Zwart" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "J.A. de Chalmot" ],
+        [ a schema:Person ;
+            rdfs:label "Noël Chomel" ] ;
+    schema:dateCreated "1778"^^schema:Date ;
+    schema:identifier "1.15" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <http://www.worldcat.org/oclc/63446491> ;
+    schema:keywords [ rdfs:label "fondans" ],
+        [ rdfs:label "black" ],
+        [ rdfs:label "enameling" ],
+        [ rdfs:label "impalpable" ],
+        [ rdfs:label "iron" ],
+        [ rdfs:label "copper" ],
+        [ rdfs:label "smalt" ] ;
+    schema:title "Ander Zwart" .
+
+user:1.16 a schema:Recipe ;
+    rdfs:label "Geelagtig Groen" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Noël Chomel" ],
+        [ a schema:Person ;
+            rdfs:label "J.A. de Chalmot" ] ;
+    schema:dateCreated "1778"^^schema:Date ;
+    schema:identifier "1.16" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <http://www.worldcat.org/oclc/63446491> ;
+    schema:keywords [ rdfs:label "smalt" ],
+        [ rdfs:label "enameling" ],
+        [ rdfs:label "green" ],
+        [ rdfs:label "grinding" ],
+        [ rdfs:label "copper" ],
+        [ rdfs:label "fondans" ],
+        [ rdfs:label "berggroen" ] ;
+    schema:title "Geelagtig Groen" .
+
+user:1.17 a schema:Recipe ;
+    rdfs:label "Blaauw" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Noël Chomel" ],
+        [ a schema:Person ;
+            rdfs:label "J.A. de Chalmot" ] ;
+    schema:dateCreated "1778"^^schema:Date ;
+    schema:hasPart [ a schema:Quotation ;
+            schema:about <http://vocab.getty.edu/aat/300179462> ;
+            schema:text "fijn gewreeven smalt" ] ;
+    schema:identifier "1.17" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <http://www.worldcat.org/oclc/63446491> ;
+    schema:keywords [ rdfs:label "blue" ],
+        [ rdfs:label "enameling" ],
+        [ rdfs:label "grinding" ],
+        [ rdfs:label "smalt" ],
+        [ rdfs:label "fondans" ] ;
+    schema:title "Blaauw" .
+
+user:1.18 a schema:Recipe ;
+    rdfs:label "Donker Blaauw" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Noël Chomel" ],
+        [ a schema:Person ;
+            rdfs:label "J.A. de Chalmot" ] ;
+    schema:dateCreated "1778"^^schema:Date ;
+    schema:hasPart [ a schema:Quotation ;
+            schema:about <http://vocab.getty.edu/aat/300179462> ;
+            schema:text "de donkerste smalt onder den naam van azur-blaauw bekend" ] ;
+    schema:identifier "1.18" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <http://www.worldcat.org/oclc/63446491> ;
+    schema:keywords [ rdfs:label "smalt" ],
+        [ rdfs:label "enameling" ],
+        [ rdfs:label "azur-blaauw" ],
+        [ rdfs:label "fondans" ],
+        [ rdfs:label "impalpable" ],
+        [ rdfs:label "sand" ],
+        [ rdfs:label "cobalt" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "impalpable or”ontastbaar\"" ] ;
+    schema:title "Donker Blaauw" .
+
+user:1.19 a schema:Recipe ;
+    rdfs:label "Blaau inkt te maken" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Jan Dirksz. Zoutman" ],
+        [ a schema:Person ;
+            rdfs:label "Simon Eikelenberg" ] ;
+    schema:hasPart [ a schema:Quotation ;
+            schema:about <http://vocab.getty.edu/aat/300179462> ;
+            schema:text "Wel gezuyverde smalt" ] ;
+    schema:identifier "1.19" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf [ rdfs:label "`CreativeWork" ;
+            schema:identifier "NL-AmrRAA_95.001_0850_0390" ;
+            schema:title "Verligterij-boekje" ] ;
+    schema:itemLocation [ a schema:Place ;
+            rdfs:label "Regionaal Archief Alkmaar, collectie Aanwinsten, Inv. Nr. 390" ] ;
+    schema:keywords [ rdfs:label "gum" ],
+        [ rdfs:label "illumination" ],
+        [ rdfs:label "washing" ],
+        [ rdfs:label "Ink" ],
+        [ rdfs:label "smalt" ],
+        [ rdfs:label "levigation" ],
+        [ rdfs:label "ink" ],
+        [ rdfs:label "purifying" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "interestingly washes the smalt (or lazuur), and states that you should leave it in the water, otherwise it would become too hard. This goes against other descriptions that are careful to treat smalt with water." ] ;
+    schema:title "Blaau inkt te maken" .
+
+user:1.2 a schema:Recipe ;
+    rdfs:label "Argentum Musicum mit blau verschatteriert." ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Valentin Boltz" ] ;
+    schema:identifier "1.2" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "German" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/30168468> ;
+    schema:keywords [ rdfs:label "silver" ],
+        [ rdfs:label "lasur blau" ],
+        [ rdfs:label "glazing" ],
+        [ rdfs:label "Argentum Musicum" ],
+        [ rdfs:label "smalt" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "Lasur blau. Does this refer to lazuli/lazurite, or lasur as in a scumble (lasur in German), or perhaps a glazing blue (google translate translate lasur blue as such)? It does not seem to refer to smalt at least, as he describes that in the sentence after." ] ;
+    schema:title "Argentum Musicum mit blau verschatteriert." .
+
+user:1.2.html a schema:WebPage ;
+    rdfs:label "1.2: Argentum Musicum mit blau verschattieret." ;
+    schema:about user:1.2 .
+
+user:1.20 a schema:Recipe ;
+    rdfs:label "Van de blau verwe" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Simon Eikelenberg" ],
+        [ a schema:Person ;
+            rdfs:label "Jan Dirksz. Zoutman" ] ;
+    schema:identifier "1.20" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf [ rdfs:label "`CreativeWork" ;
+            schema:identifier "NL-AmrRAA_95.001_0850_0390" ;
+            schema:title "Verligterij-boekje" ] ;
+    schema:itemLocation [ a schema:Place ;
+            rdfs:label "Regionaal Archief Alkmaar, collectie Aanwinsten, Inv. Nr. 390" ] ;
+    schema:keywords [ rdfs:label "smalt" ],
+        [ rdfs:label "illumination" ],
+        [ rdfs:label "mapmaking" ],
+        [ rdfs:label "lazurite" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "Describes that all blues are called”lazuur\" as real “lazuur” (lazurite?) is very expensive" ] ;
+    schema:title "Van de blau verwe" .
+
+user:1.21 a schema:Recipe ;
+    rdfs:label "Om smalt te bereijden" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Simon Eikelenberg" ],
+        [ a schema:Person ;
+            rdfs:label "Jan Dirksz. Zoutman" ] ;
+    schema:hasPart [ a schema:Quotation ;
+            schema:about <http://vocab.getty.edu/aat/300179462> ;
+            schema:text "wassinge van smalt" ] ;
+    schema:identifier "1.21" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf [ rdfs:label "`CreativeWork" ;
+            schema:identifier "NL-AmrRAA_95.001_0850_0390" ;
+            schema:title "Verligterij-boekje" ] ;
+    schema:itemLocation [ a schema:Place ;
+            rdfs:label "Regionaal Archief Alkmaar, collectie Aanwinsten, Inv. Nr. 390" ] ;
+    schema:keywords [ rdfs:label "masonry" ],
+        [ rdfs:label "illumination" ],
+        [ rdfs:label "washing" ],
+        [ rdfs:label "doodverf" ],
+        [ rdfs:label "rainwater" ],
+        [ rdfs:label "landscapes" ],
+        [ rdfs:label "grinding" ],
+        [ rdfs:label "mapmaking" ],
+        [ rdfs:label "gum water" ],
+        [ rdfs:label "brush" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "Describes how smalt shouldn’t be ground too much. Later makes distinguishments between several washings of smalt. Also notes that the brush should be wettened with binding medium before painting, as otherwise the smalt would not flow well from the brush." ] ;
+    schema:title "Om smalt te bereijden" .
+
+user:1.22 a schema:Recipe ;
+    rdfs:label "Lazuur te wrijven" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Simon Eikelenberg" ],
+        [ a schema:Person ;
+            rdfs:label "Jan Dirksz. Zoutman" ] ;
+    schema:identifier "1.22" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf [ rdfs:label "`CreativeWork" ;
+            schema:identifier "NL-AmrRAA_95.001_0850_0390" ;
+            schema:title "Verligterij-boekje" ] ;
+    schema:itemLocation [ a schema:Place ;
+            rdfs:label "Regionaal Archief Alkmaar, collectie Aanwinsten, Inv. Nr. 390" ] ;
+    schema:keywords [ rdfs:label "gum-water" ],
+        [ rdfs:label "washing" ],
+        [ rdfs:label "illumination" ],
+        [ rdfs:label "coarse" ],
+        [ rdfs:label "grinding" ],
+        [ rdfs:label "mapmaking" ],
+        [ rdfs:label "water" ],
+        [ rdfs:label "washing" ] ;
+    schema:title "Lazuur te wrijven" .
+
+user:1.23 a schema:Recipe ;
+    rdfs:label "Berggroen" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Simon Eikelenberg" ],
+        [ a schema:Person ;
+            rdfs:label "Jan Dirksz. Zoutman" ] ;
+    schema:identifier "1.23" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf [ rdfs:label "`CreativeWork" ;
+            schema:identifier "NL-AmrRAA_95.001_0850_0390" ;
+            schema:title "Verligterij-boekje" ] ;
+    schema:itemLocation [ a schema:Place ;
+            rdfs:label "Regionaal Archief Alkmaar, collectie Aanwinsten, Inv. Nr. 390" ] ;
+    schema:keywords [ rdfs:label "illumination" ],
+        [ rdfs:label "gum-water" ],
+        [ rdfs:label "malachite" ],
+        [ rdfs:label "smalt" ],
+        [ rdfs:label "mapmaking" ],
+        [ rdfs:label "mountain green" ],
+        [ rdfs:label "purification" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "berggroen = malachite?" ] ;
+    schema:title "Berggroen" .
+
+user:1.24 a schema:Recipe ;
+    rdfs:label "Purper" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Simon Eikelenberg" ],
+        [ a schema:Person ;
+            rdfs:label "Jan Dirksz. Zoutman" ] ;
+    schema:identifier "1.24" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf [ rdfs:label "`CreativeWork" ;
+            schema:identifier "NL-AmrRAA_95.001_0850_0390" ;
+            schema:title "Verligterij-boekje" ] ;
+    schema:itemLocation [ a schema:Place ;
+            rdfs:label "Regionaal Archief Alkmaar, collectie Aanwinsten, Inv. Nr. 390" ] ;
+    schema:keywords [ rdfs:label "illumination" ],
+        [ rdfs:label "mapmaking" ],
+        [ rdfs:label "white" ],
+        [ rdfs:label "lazuur" ],
+        [ rdfs:label "gum-water" ],
+        [ rdfs:label "ash blue" ],
+        [ rdfs:label "purple" ],
+        [ rdfs:label "rose" ] ;
+    schema:title "Purper" .
+
+user:1.25 a schema:Recipe ;
+    rdfs:label "Van geele verwen" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Simon Eikelenberg" ],
+        [ a schema:Person ;
+            rdfs:label "Jan Dirksz. Zoutman" ] ;
+    schema:identifier "1.25" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf [ rdfs:label "`CreativeWork" ;
+            schema:identifier "NL-AmrRAA_95.001_0850_0390" ;
+            schema:title "Verligterij-boekje" ] ;
+    schema:itemLocation [ a schema:Place ;
+            rdfs:label "Regionaal Archief Alkmaar, collectie Aanwinsten, Inv. Nr. 390" ] ;
+    schema:keywords [ rdfs:label "grinding" ],
+        [ rdfs:label "illumination" ],
+        [ rdfs:label "massicot" ],
+        [ rdfs:label "gum-water" ],
+        [ rdfs:label "washing" ],
+        [ rdfs:label "mapmaking" ],
+        [ rdfs:label "smalt" ] ;
+    schema:title "Van geele verwen" .
+
+user:1.26 a schema:Recipe ;
+    rdfs:label "Blauwe grond" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Jan Dirksz. Zoutman" ],
+        [ a schema:Person ;
+            rdfs:label "Simon Eikelenberg" ] ;
+    schema:identifier "1.26" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf [ rdfs:label "`CreativeWork" ;
+            schema:identifier "NL-AmrRAA_95.001_0850_0390" ;
+            schema:title "Verligterij-boekje" ] ;
+    schema:itemLocation [ a schema:Place ;
+            rdfs:label "Regionaal Archief Alkmaar, collectie Aanwinsten, Inv. Nr. 390" ] ;
+    schema:keywords [ rdfs:label "verdiepen" ],
+        [ rdfs:label "verhogen" ],
+        [ rdfs:label "illumination" ],
+        [ rdfs:label "ground" ],
+        [ rdfs:label "smalt" ],
+        [ rdfs:label "lazuurblaau" ],
+        [ rdfs:label "white" ],
+        [ rdfs:label "tornisol" ],
+        [ rdfs:label "ash blue" ],
+        [ rdfs:label "mapmaking" ] ;
+    schema:title "Blauwe grond" .
+
+user:1.27 a schema:Recipe ;
+    rdfs:label "Een ander [groen dat doorschijnig is]" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Jan Dirksz. Zoutman" ],
+        [ a schema:Person ;
+            rdfs:label "Simon Eikelenberg" ] ;
+    schema:identifier "1.27" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf [ rdfs:label "`CreativeWork" ;
+            schema:identifier "NL-AmrRAA_95.001_0850_0390" ;
+            schema:title "Verligterij-boekje" ] ;
+    schema:itemLocation [ a schema:Place ;
+            rdfs:label "Regionaal Archief Alkmaar, collectie Aanwinsten, Inv. Nr. 390" ] ;
+    schema:keywords [ rdfs:label "illumination" ],
+        [ rdfs:label "lazuurblaau" ],
+        [ rdfs:label "orpiment" ],
+        [ rdfs:label "paris red" ],
+        [ rdfs:label "ash blue" ],
+        [ rdfs:label "indigo" ],
+        [ rdfs:label "verdiepen" ],
+        [ rdfs:label "mapmaking" ],
+        [ rdfs:label "grass" ],
+        [ rdfs:label "flowers" ],
+        [ rdfs:label "verhogen" ] ;
+    schema:title "Een ander [groen dat doorschijnig is]" .
+
+user:1.28 a schema:Recipe ;
+    rdfs:label "Een ander" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Jan Dirksz. Zoutman" ],
+        [ a schema:Person ;
+            rdfs:label "Simon Eikelenberg" ] ;
+    schema:identifier "1.28" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf [ rdfs:label "`CreativeWork" ;
+            schema:identifier "NL-AmrRAA_95.001_0850_0390" ;
+            schema:title "Verligterij-boekje" ] ;
+    schema:itemLocation [ a schema:Place ;
+            rdfs:label "Regionaal Archief Alkmaar, collectie Aanwinsten, Inv. Nr. 390" ] ;
+    schema:keywords [ rdfs:label "sapgreen" ],
+        [ rdfs:label "mapmaking" ],
+        [ rdfs:label "verdiepen" ],
+        [ rdfs:label "lazuur" ],
+        [ rdfs:label "ash blue" ],
+        [ rdfs:label "spanish green" ],
+        [ rdfs:label "trees" ],
+        [ rdfs:label "grass" ],
+        [ rdfs:label "lead white" ],
+        [ rdfs:label "verhogen" ],
+        [ rdfs:label "orpiment" ],
+        [ rdfs:label "illumination" ] ;
+    schema:title "Een ander" .
+
+user:1.29 a schema:Recipe ;
+    rdfs:label "Waters verwen" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Jan Dirksz. Zoutman" ],
+        [ a schema:Person ;
+            rdfs:label "Simon Eikelenberg" ] ;
+    schema:identifier "1.29" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf [ rdfs:label "`CreativeWork" ;
+            schema:identifier "NL-AmrRAA_95.001_0850_0390" ;
+            schema:title "Verligterij-boekje" ] ;
+    schema:itemLocation [ a schema:Place ;
+            rdfs:label "Regionaal Archief Alkmaar, collectie Aanwinsten, Inv. Nr. 390" ] ;
+    schema:keywords [ rdfs:label "mountain green" ],
+        [ rdfs:label "indigo" ],
+        [ rdfs:label "lead white" ],
+        [ rdfs:label "illumination" ],
+        [ rdfs:label "verdiepen" ],
+        [ rdfs:label "lazuur" ],
+        [ rdfs:label "mapmaking" ],
+        [ rdfs:label "verhogen" ],
+        [ rdfs:label "ash blue" ],
+        [ rdfs:label "water" ] ;
+    schema:title "Waters verwen" .
+
+user:1.3 a schema:Recipe ;
+    rdfs:label "Eschblau solt auch verschatiert werden." ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Valentin Boltz" ] ;
+    schema:identifier "1.3" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "German" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/30168468> ;
+    schema:keywords [ rdfs:label "smalt" ],
+        [ rdfs:label "Ash blue" ],
+        [ rdfs:label "green" ],
+        [ rdfs:label "silver" ],
+        [ rdfs:label "lasur blau" ],
+        [ rdfs:label "lead white" ],
+        [ rdfs:label "sap green" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "Makes the distinction here. Shade the ash blue with smalt. Indicating that smalt (at least noble smalt) and ash blue are two different things" ] ;
+    schema:title "Eschblau solt auch verschatiert werden." .
+
+user:1.3.html a schema:WebPage ;
+    rdfs:label "1.3: Eschblau solt auch verschatiert werden." ;
+    schema:about user:1.3 .
+
+user:1.30 a schema:Recipe ;
+    rdfs:label "Dese blaau mach men verhogen met puur brasilie" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Simon Eikelenberg" ],
+        [ a schema:Person ;
+            rdfs:label "Jan Dirksz. Zoutman" ] ;
+    schema:identifier "1.30" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf [ rdfs:label "`CreativeWork" ;
+            schema:identifier "NL-AmrRAA_95.001_0850_0390" ;
+            schema:title "Verligterij-boekje" ] ;
+    schema:itemLocation [ a schema:Place ;
+            rdfs:label "Regionaal Archief Alkmaar, collectie Aanwinsten, Inv. Nr. 390" ] ;
+    schema:keywords [ rdfs:label "verdiepen" ],
+        [ rdfs:label "verhogen" ],
+        [ rdfs:label "gold" ],
+        [ rdfs:label "silver" ],
+        [ rdfs:label "ash blue" ],
+        [ rdfs:label "lake" ],
+        [ rdfs:label "illumination" ],
+        [ rdfs:label "smalt" ],
+        [ rdfs:label "mapmaking" ],
+        [ rdfs:label "brazilwood" ] ;
+    schema:title "Dese blaau mach men verhogen met puur brasilie" .
+
+user:1.31 a schema:Recipe ;
+    rdfs:label "Om schoon blau te leggen" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Simon Eikelenberg" ],
+        [ a schema:Person ;
+            rdfs:label "Jan Dirksz. Zoutman" ] ;
+    schema:identifier "1.31" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf [ rdfs:label "`CreativeWork" ;
+            schema:identifier "NL-AmrRAA_95.001_0850_0390" ;
+            schema:title "Verligterij-boekje" ] ;
+    schema:itemLocation [ a schema:Place ;
+            rdfs:label "Regionaal Archief Alkmaar, collectie Aanwinsten, Inv. Nr. 390" ] ;
+    schema:keywords [ rdfs:label "verhogen" ],
+        [ rdfs:label "leadwhite" ],
+        [ rdfs:label "ash blue" ],
+        [ rdfs:label "mapmaking" ],
+        [ rdfs:label "verdiepen" ],
+        [ rdfs:label "lakmoes" ],
+        [ rdfs:label "illumination" ] ;
+    schema:title "Om schoon blau te leggen" .
+
+user:1.32 a schema:Recipe ;
+    rdfs:label "Riet dak" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Simon Eikelenberg" ],
+        [ a schema:Person ;
+            rdfs:label "Jan Dirksz. Zoutman" ] ;
+    schema:identifier "1.32" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf [ rdfs:label "`CreativeWork" ;
+            schema:identifier "NL-AmrRAA_95.001_0850_0390" ;
+            schema:title "Verligterij-boekje" ] ;
+    schema:itemLocation [ a schema:Place ;
+            rdfs:label "Regionaal Archief Alkmaar, collectie Aanwinsten, Inv. Nr. 390" ] ;
+    schema:keywords [ rdfs:label "black" ],
+        [ rdfs:label "mapmaking" ],
+        [ rdfs:label "ash blue" ],
+        [ rdfs:label "white" ],
+        [ rdfs:label "thatched roof" ],
+        [ rdfs:label "schijtgeel" ],
+        [ rdfs:label "green" ],
+        [ rdfs:label "illumination" ] ;
+    schema:title "Riet dak" .
+
+user:1.33 a schema:Recipe ;
+    rdfs:label "Visch" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Simon Eikelenberg" ],
+        [ a schema:Person ;
+            rdfs:label "Jan Dirksz. Zoutman" ] ;
+    schema:identifier "1.33" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf [ rdfs:label "`CreativeWork" ;
+            schema:identifier "NL-AmrRAA_95.001_0850_0390" ;
+            schema:title "Verligterij-boekje" ] ;
+    schema:itemLocation [ a schema:Place ;
+            rdfs:label "Regionaal Archief Alkmaar, collectie Aanwinsten, Inv. Nr. 390" ] ;
+    schema:keywords [ rdfs:label "illumination" ],
+        [ rdfs:label "ash blue" ],
+        [ rdfs:label "mapmaking" ],
+        [ rdfs:label "fish" ],
+        [ rdfs:label "sap green" ],
+        [ rdfs:label "white" ] ;
+    schema:title "Visch" .
+
+user:1.34 a schema:Recipe ;
+    rdfs:label "Lucht daar de zon op gaat" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Simon Eikelenberg" ],
+        [ a schema:Person ;
+            rdfs:label "Jan Dirksz. Zoutman" ] ;
+    schema:identifier "1.34" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf [ rdfs:label "`CreativeWork" ;
+            schema:identifier "NL-AmrRAA_95.001_0850_0390" ;
+            schema:title "Verligterij-boekje" ] ;
+    schema:itemLocation [ a schema:Place ;
+            rdfs:label "Regionaal Archief Alkmaar, collectie Aanwinsten, Inv. Nr. 390" ] ;
+    schema:keywords [ rdfs:label "illumination" ],
+        [ rdfs:label "minium" ],
+        [ rdfs:label "ash blue" ],
+        [ rdfs:label "massicot" ],
+        [ rdfs:label "air and sunrise" ],
+        [ rdfs:label "mapmaking" ],
+        [ rdfs:label "lake" ],
+        [ rdfs:label "white" ] ;
+    schema:title "Lucht daar de zon op gaat" .
+
+user:1.35 a schema:Recipe ;
+    rdfs:label "I. Per fare il sale di vetro" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Anonymous" ] ;
+    schema:identifier "1.35" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Italian" ] ;
+    schema:isPartOf [ a schema:CreativeWork ;
+            rdfs:label "Ricettario animo del Cinquecento" ] ;
+    schema:itemLocation [ a schema:Place ;
+            rdfs:label "Private Collector" ] ;
+    schema:keywords [ rdfs:label "base" ],
+        [ rdfs:label "extraction" ],
+        [ rdfs:label "soda ash" ],
+        [ rdfs:label "ash" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "Considering the numerous references to Murano in many recipes (“no se fa a Murano salvo da me“, it is made in Murano only by me) the provenance of the manuscript are the Murano islands in the Venetian lagoon.Furthermore the author could be a guardian of glassmaker’s „secrets“, i.e. the recipes to prepare different types of glass. The presence of the word „Stella“, (”star”) on the first page, could be a reference to the family Barovier della Stella, probably the compiler of the manuscript." ] ;
+    schema:title "I. Per fare il sale di vetro" .
+
+user:1.36 a schema:Recipe ;
+    rdfs:label "II. Per fare la fritta" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Anonymous" ] ;
+    schema:identifier "1.36" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Italian" ] ;
+    schema:isPartOf [ a schema:CreativeWork ;
+            rdfs:label "Ricettario animo del Cinquecento" ] ;
+    schema:itemLocation [ a schema:Place ;
+            rdfs:label "Private Collector" ] ;
+    schema:keywords [ rdfs:label "frit" ],
+        [ rdfs:label "manganese" ],
+        [ rdfs:label "base frit" ],
+        [ rdfs:label "sio2" ],
+        [ rdfs:label "silica" ],
+        [ rdfs:label "glass" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text [ rdfs:label "\"\"\"" ] ] ;
+    schema:title "II. Per fare la fritta" .
+
+user:1.37 a schema:Recipe ;
+    rdfs:label "XXI. Per fare smalto azzurro, intenso e tenue di più tipi" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Anonymous" ] ;
+    schema:identifier "1.37" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Italian" ] ;
+    schema:isPartOf [ a schema:CreativeWork ;
+            rdfs:label "Ricettario animo del Cinquecento" ] ;
+    schema:itemLocation [ a schema:Place ;
+            rdfs:label "Private Collector" ] ;
+    schema:keywords [ rdfs:label "enamel" ],
+        [ rdfs:label "zaffer" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text [ rdfs:label "\"\"\"" ] ] ;
+    schema:title "XXI. Per fare smalto azzurro, intenso e tenue di più tipi" .
+
+user:1.38 a schema:Recipe ;
+    rdfs:label "XXVII. per fare smalto per argento usato degli orifici; e che a murano faccio solo io; e per primo, per fare smalto azzurro" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Anonymous" ] ;
+    schema:identifier "1.38" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Italian" ] ;
+    schema:isPartOf [ a schema:CreativeWork ;
+            rdfs:label "Ricettario animo del Cinquecento" ] ;
+    schema:itemLocation [ a schema:Place ;
+            rdfs:label "Private Collector" ] ;
+    schema:keywords [ rdfs:label "Zaffer" ],
+        [ rdfs:label "enamel" ],
+        [ rdfs:label "copper alternative blue (verdigris?)" ],
+        [ rdfs:label "manganese" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text [ rdfs:label "\"\"\"" ] ] ;
+    schema:title "XXVII. per fare smalto per argento usato degli orifici; e che a murano faccio solo io; e per primo, per fare smalto azzurro" .
+
+user:1.39 a schema:Recipe ;
+    rdfs:label "XVIII. Per fare smalto come il precedente, ma migliore" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Anonymous" ] ;
+    schema:identifier "1.39" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Italian" ] ;
+    schema:isPartOf [ a schema:CreativeWork ;
+            rdfs:label "Ricettario animo del Cinquecento" ] ;
+    schema:itemLocation [ a schema:Place ;
+            rdfs:label "Private Collector" ] ;
+    schema:keywords [ rdfs:label "enamel" ],
+        [ rdfs:label "manganese" ],
+        [ rdfs:label "Zaffer" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text [ rdfs:label "\"\"\"" ] ] ;
+    schema:title "XVIII. Per fare smalto come il precedente, ma migliore" .
+
+user:1.4 a schema:Recipe ;
+    rdfs:label "Esch blau." ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Valentin Boltz" ] ;
+    schema:identifier "1.4" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "German" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/30168468> ;
+    schema:keywords [ rdfs:label "pebbles" ],
+        [ rdfs:label "lead white" ],
+        [ rdfs:label "weapons" ],
+        [ rdfs:label "sieving" ],
+        [ rdfs:label "sand" ],
+        [ rdfs:label "sieve" ],
+        [ rdfs:label "ash blue" ],
+        [ rdfs:label "armor" ],
+        [ rdfs:label "water" ],
+        [ rdfs:label "smalt ash" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "smalt ash, talking about a different grade of smalt perhaps? Indicates that there are many more ash blue pigments besides smalt ash." ] ;
+    schema:title "Esch blau." .
+
+user:1.4.html a schema:WebPage ;
+    rdfs:label "1.4: Esch blau." ;
+    schema:about user:1.4 .
+
+user:1.40 a schema:Recipe ;
+    rdfs:label "XC. Per smaltare i vetri" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Anonymous" ] ;
+    schema:identifier "1.40" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Italian" ] ;
+    schema:isPartOf [ a schema:CreativeWork ;
+            rdfs:label "Ricettario animo del Cinquecento" ] ;
+    schema:itemLocation [ a schema:Place ;
+            rdfs:label "Private Collector" ] ;
+    schema:keywords [ rdfs:label "Glaze" ],
+        [ rdfs:label "fine" ],
+        [ rdfs:label "washing" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text [ rdfs:label "\"\" \"" ] ] ;
+    schema:title "XC. Per smaltare i vetri" .
+
+user:1.41 a schema:Recipe ;
+    rdfs:label "A preparare la Zaffere, che serve per più colori nell’Arte vetraria. Cap. XII" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Antonio Neri" ] ;
+    schema:dateCreated "1612"^^schema:Date ;
+    schema:identifier "1.41" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Italian" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301301429> ;
+    schema:keywords [ rdfs:label "Decanting" ],
+        [ rdfs:label "Zaffer, Saxon Blue" ],
+        [ rdfs:label "Washing" ] ;
+    schema:title "A preparare la Zaffere, che serve per più colori nell’Arte vetraria. Cap. XII" .
+
+user:1.42 a schema:Recipe ;
+    rdfs:label "Acqua marina in vetro; colore principale nell’arte. Cap. 22" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Antonio Neri" ] ;
+    schema:dateCreated "1612"^^schema:Date ;
+    schema:identifier "1.42" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Italian" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301301429> ;
+    schema:keywords [ rdfs:label "frit" ],
+        [ rdfs:label "crystal" ],
+        [ rdfs:label "zaffer" ],
+        [ rdfs:label "Blue glass" ] ;
+    schema:title "Acqua marina in vetro; colore principale nell’arte. Cap. 22" .
+
+user:1.43 a schema:Recipe ;
+    rdfs:label "Colore celeste, o vero di gazzera marina. Cap XXIIII" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Antonio Neri" ] ;
+    schema:dateCreated "1612"^^schema:Date ;
+    schema:identifier "1.43" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Italian" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301301429> ;
+    schema:keywords [ rdfs:label "zaffer, blue glass" ] ;
+    schema:title "Colore celeste, o vero di gazzera marina. Cap XXIIII" .
+
+user:1.44 a schema:Recipe ;
+    rdfs:label "Acqua marina in cristallo; artifiziale altrimenti detto bollito. Cap. 26" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Antonio Neri" ] ;
+    schema:dateCreated "1612"^^schema:Date ;
+    schema:identifier "1.44" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Italian" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301301429> ;
+    schema:keywords [ rdfs:label "No manganese" ],
+        [ rdfs:label "zaffer" ],
+        [ rdfs:label "blue glass" ] ;
+    schema:title "Acqua marina in cristallo; artifiziale altrimenti detto bollito. Cap. 26" .
+
+user:1.45 a schema:Recipe ;
+    rdfs:label "Secondo Calcidonio. Cap. XLIII" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Antonio Neri" ] ;
+    schema:dateCreated "1612"^^schema:Date ;
+    schema:identifier "1.45" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Italian" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301301429> ;
+    schema:keywords [ rdfs:label "mixture" ],
+        [ rdfs:label "Chalcedony" ],
+        [ rdfs:label "smalt" ],
+        [ rdfs:label "imitation gem" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text [ rdfs:label "\"“Then add ½ ounce of the azure blue enamel that the painters use”\"" ] ] ;
+    schema:title "Secondo Calcidonio. Cap. XLIII" .
+
+user:1.46 a schema:Recipe ;
+    rdfs:label "Colore di lapis lazzuli. Cap LXXII." ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Antonio Neri" ] ;
+    schema:dateCreated "1612"^^schema:Date ;
+    schema:identifier "1.46" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Italian" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301301429> ;
+    schema:keywords [ rdfs:label "blue enamel" ],
+        [ rdfs:label "imitation gem" ],
+        [ rdfs:label "Smalt" ],
+        [ rdfs:label "smalto" ],
+        [ rdfs:label "blue glass" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text [ rdfs:label "\"“blue enamel that which painters use to paint.” Most definitely referring to ‘our’ smalt pigment\"" ] ] ;
+    schema:title "Colore di lapis lazzuli. Cap LXXII." .
+
+user:1.47 a schema:Recipe ;
+    rdfs:label "Color celeste col violino. Cap LXXXIIII" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Antonio Neri" ] ;
+    schema:dateCreated "1612"^^schema:Date ;
+    schema:identifier "1.47" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Italian" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301301429> ;
+    schema:keywords [ rdfs:label "smalto" ],
+        [ rdfs:label "enamel" ],
+        [ rdfs:label "glass" ],
+        [ rdfs:label "Smalt" ],
+        [ rdfs:label "violet glass" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text [ rdfs:label "\"“blue enamel that painters use”\"" ] ] ;
+    schema:title "Color celeste col violino. Cap LXXXIIII" .
+
+user:1.48 a schema:Recipe ;
+    rdfs:label "Azzurro oltramarino. Cap. CXV" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Antonio Neri" ] ;
+    schema:dateCreated "1612"^^schema:Date ;
+    schema:identifier "1.48" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Italian" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301301429> ;
+    schema:keywords [ rdfs:label "Ultramarine extraction" ],
+        [ rdfs:label "lapis lazuli" ],
+        [ rdfs:label "blue enamel" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "Describes the extraction of an alternative to ultramarine using the same method (gummy), but then with a”blue enamel“. Does he extract the blue from an enamel in the same way as he does ultramarine?”for a quite beautiful and sightly biadetto blue that mimics ultramarine blue, take ordinary blue enamel. Grind it exceedingly fine over the porphyry stone, as above. lncorporate it into the gum cake with the dose described above, and hold it in digestion in fresh water for 15 days as with the Iapis lazuli. Follow the directions for the Iapis lazuli, in all and for all, until the end. These blues are not only useful to painters, but they also serve in order to tint glasses par excellence.\"" ] ;
+    schema:title "Azzurro oltramarino. Cap. CXV" .
+
+user:1.49 a schema:Recipe ;
+    rdfs:label "smalto turchino. Cap. XCV" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Antonio Neri" ] ;
+    schema:dateCreated "1612"^^schema:Date ;
+    schema:identifier "1.49" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Italian" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301301429> ;
+    schema:keywords [ rdfs:label "Blue enamel" ],
+        [ rdfs:label "manganese" ],
+        [ rdfs:label "zaffer" ] ;
+    schema:title "smalto turchino. Cap. XCV" .
+
+user:1.5 a schema:Recipe ;
+    rdfs:label "To make Blew Japan" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Stalker and Parker" ] ;
+    schema:dateCreated "1688"^^schema:Date ;
+    schema:hasPart [ a schema:Quotation ;
+            schema:about <http://vocab.getty.edu/aat/300179462> ;
+            schema:text "best and finest smalt" ] ;
+    schema:identifier "1.5" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "English" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301254483> ;
+    schema:keywords [ rdfs:label "lead white" ],
+        [ rdfs:label "gum-water" ],
+        [ rdfs:label "isinglass" ],
+        [ rdfs:label "marble grinding slab" ],
+        [ rdfs:label "oil" ],
+        [ rdfs:label "varnishing" ],
+        [ rdfs:label "lamp black" ],
+        [ rdfs:label "japanning" ],
+        [ rdfs:label "Smalt" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "Painted Wood: History and Conservation, ieds. Valerie Dorge, F. Carey Howlett: mentions that sometimes coloured varnishes would be used to create striking effect. There is an example of a 1730 clock in which this blue japan is covered with a golden varnish to produce a green-ish hue. further on (p334) also describes smalt being used as a constituent of a coloured varnish" ] ;
+    schema:title "To make Blew Japan" .
+
+user:1.5.html a schema:WebPage ;
+    rdfs:label "1.5: To make Blew Japan" ;
+    schema:about user:1.5 .
+
+user:1.50 a schema:Recipe ;
+    rdfs:label "Altro smalto azzurro. Cap. XCVI." ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Antonio Neri" ] ;
+    schema:dateCreated "1612"^^schema:Date ;
+    schema:identifier "1.50" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Italian" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301301429> ;
+    schema:keywords [ rdfs:label "zaffer" ],
+        [ rdfs:label "Blue enamel" ],
+        [ rdfs:label "copper" ] ;
+    schema:title "Altro smalto azzurro. Cap. XCVI." .
+
+user:1.51 a schema:Recipe ;
+    rdfs:label "Smalto celeste. Cap. CVI." ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Antonio Neri" ] ;
+    schema:dateCreated "1612"^^schema:Date ;
+    schema:identifier "1.51" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Italian" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301301429> ;
+    schema:keywords [ rdfs:label "Blue enamel" ],
+        [ rdfs:label "zaffer" ],
+        [ rdfs:label "tin" ] ;
+    schema:title "Smalto celeste. Cap. CVI." .
+
+user:1.52 a schema:Recipe ;
+    rdfs:label "Om blaauw Email te maken." ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "J.A. de Chalmot" ],
+        [ a schema:Person ;
+            rdfs:label "Noël Chomel" ] ;
+    schema:dateCreated "1778"^^schema:Date ;
+    schema:identifier "1.52" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <http://www.worldcat.org/oclc/63446491> ;
+    schema:keywords [ rdfs:label "cobalt" ],
+        [ rdfs:label "smalt" ],
+        [ rdfs:label "magnesium" ],
+        [ rdfs:label "safre" ],
+        [ rdfs:label "zaffer" ],
+        [ rdfs:label "koper hamerslag" ],
+        [ rdfs:label "saffara" ],
+        [ rdfs:label "quantity" ],
+        [ rdfs:label "magnesia" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "- explains zaffer as being the same as cobalt, being the same as smalt. - describes ‘magnesia’, is that magnesium? or just wrongly transleted manganese?" ] ;
+    schema:title "Om blaauw Email te maken." .
+
+user:1.53 a schema:Recipe ;
+    rdfs:label "Om hemels-blaauw of azuur Email te maken" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "J.A. de Chalmot" ],
+        [ a schema:Person ;
+            rdfs:label "Noël Chomel" ] ;
+    schema:dateCreated "1778"^^schema:Date ;
+    schema:identifier "1.53" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <http://www.worldcat.org/oclc/63446491> ;
+    schema:keywords [ rdfs:label "copper" ],
+        [ rdfs:label "white enamel" ],
+        [ rdfs:label "ratio’s" ],
+        [ rdfs:label "colour differences" ],
+        [ rdfs:label "quantity" ],
+        [ rdfs:label "cobalt" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "the presence of copper and/or manganese (magnesium?) would indicate the use of glazes as opposed to painter’s pigment. Is this something we find in analytical results as well?" ] ;
+    schema:title "Om hemels-blaauw of azuur Email te maken" .
+
+user:1.54 a schema:Recipe ;
+    rdfs:label "Glas-Verf" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Noël Chomel" ],
+        [ a schema:Person ;
+            rdfs:label "J.A. de Chalmot" ] ;
+    schema:dateCreated "1778"^^schema:Date ;
+    schema:identifier "1.54" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <http://www.worldcat.org/oclc/63446491> ;
+    schema:keywords [ rdfs:label "quantity" ],
+        [ rdfs:label "zaffer" ],
+        [ rdfs:label "zaffera" ],
+        [ rdfs:label "cobalt" ],
+        [ rdfs:label "smalt" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "uses smalt zaffer and cobalt interchangeably" ] ;
+    schema:title "Glas-Verf" .
+
+user:1.55 a schema:Recipe ;
+    rdfs:label "Emailleren, hoe geschied" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Noël Chomel" ],
+        [ a schema:Person ;
+            rdfs:label "J.A. de Chalmot" ] ;
+    schema:dateCreated "1778"^^schema:Date ;
+    schema:identifier "1.55" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <http://www.worldcat.org/oclc/63446491> ;
+    schema:keywords [ rdfs:label "zaffera" ],
+        [ rdfs:label "cobalt" ],
+        [ rdfs:label "zaffer" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "Describes how cobalt is better than zaffer.”saffera is vervalschte cobalt\"" ] ;
+    schema:title "Emailleren, hoe geschied" .
+
+user:1.56 a schema:Recipe ;
+    rdfs:label "Blauwsel" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "August Adriaan Pulle" ] ;
+    schema:dateCreated "1916"^^schema:Date ;
+    schema:identifier "1.56" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf [ a schema:CreativeWork ;
+            rdfs:label "Oosthoek Encyclopedie" ] ;
+    schema:keywords [ rdfs:label "strooiblauw" ],
+        [ rdfs:label "smalt" ],
+        [ rdfs:label "kingsblue" ],
+        [ rdfs:label "noble blue" ],
+        [ rdfs:label "grosblau" ],
+        [ rdfs:label "koningsblauw" ],
+        [ rdfs:label "blauwsel" ],
+        [ rdfs:label "strewing" ],
+        [ rdfs:label "eschel" ],
+        [ rdfs:label "grades" ],
+        [ rdfs:label "sumfeschel" ],
+        [ rdfs:label "factory" ],
+        [ rdfs:label "milling" ],
+        [ rdfs:label "mill" ],
+        [ rdfs:label "fine" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "Lists the price on importing and exporting cobalt, and”blaauwsel of smalt.\" This is a law that makes it free to import cobalt, and free to export smalt. This to help out the blaauwsel factories" ] ;
+    schema:title "Blauwsel" .
+
+user:1.57 a schema:Recipe ;
+    rdfs:label "Kobalt" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "August Adriaan Pulle" ] ;
+    schema:dateCreated "1916"^^schema:Date ;
+    schema:identifier "1.57" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf [ a schema:CreativeWork ;
+            rdfs:label "Oosthoek Encyclopedie" ] ;
+    schema:title "Kobalt" .
+
+user:1.58 a schema:Recipe ;
+    rdfs:label "Smalt" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "August Adriaan Pulle" ] ;
+    schema:dateCreated "1916"^^schema:Date ;
+    schema:identifier "1.58" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf [ a schema:CreativeWork ;
+            rdfs:label "Oosthoek Encyclopedie" ] ;
+    schema:title "Smalt" .
+
+user:1.59 a schema:Recipe ;
+    rdfs:label "Blaauwsel" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "William van der Vuurst" ] ;
+    schema:dateCreated "1819"^^schema:Date ;
+    schema:identifier "1.59" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301100339> ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "Export lists. England and France seem to be the largest buyers. Also gives insight into the prices. Also lists import of kobalt" ] ;
+    schema:title "Blaauwsel" .
+
+user:1.6 a schema:Recipe ;
+    rdfs:label "Of Coppers" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Stalker and Parker" ] ;
+    schema:dateCreated "1688"^^schema:Date ;
+    schema:hasPart [ a schema:Quotation ;
+            schema:about <http://vocab.getty.edu/aat/300179462> ;
+            schema:text "fine smalt" ] ;
+    schema:identifier "1.6" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "English" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301254483> ;
+    schema:keywords [ rdfs:label "muller" ],
+        [ rdfs:label "japanning" ],
+        [ rdfs:label "smalt" ],
+        [ rdfs:label "gum arabic" ],
+        [ rdfs:label "Red lake" ],
+        [ rdfs:label "verdigris" ],
+        [ rdfs:label "grinding slab" ],
+        [ rdfs:label "lead white" ] ;
+    schema:title "Of Coppers" .
+
+user:1.60 a schema:Recipe ;
+    rdfs:label "Smalt" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Dr. Th. Gerding" ] ;
+    schema:dateCreated "1870"^^schema:Date ;
+    schema:identifier "1.60" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <http://www.worldcat.org/oclc/914339147> ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "I know it is a very late source, but it helps in getting insight into at least the industrialized part of the smalt production. When did this process start remains a question, but the process described like this happened on a large scale for sure, presumably starting late 17th century? (first blauwsel mill 1631 in the zaanse schans region)" ] ;
+    schema:title "Smalt" ;
+    schema:translationOfWork [ a schema:Recipe ;
+            schema:dateCreated "1863"^^schema:Date ;
+            schema:inLanguage [ a schema:Language ;
+                    rdfs:label "German" ] ] .
+
+user:1.61 a schema:Recipe ;
+    rdfs:label "Oxydum Cobalti Cum Terra Sillicea" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Martinus Nicolaas Beets" ] ;
+    schema:dateCreated "1850"^^schema:Date ;
+    schema:identifier "1.61" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <http://www.worldcat.org/oclc/1147874076> ;
+    schema:keywords [ rdfs:label "Milling" ],
+        [ rdfs:label "medicine" ],
+        [ rdfs:label "Factory" ],
+        [ rdfs:label "Grades" ],
+        [ rdfs:label "paper" ],
+        [ rdfs:label "cosmatics" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "describes how difference in cobalt quality is the main factor that decides on the quality of the resulting blauwsel. Indicates that the Rhine area has poor cobalt, whereas the cobalt that’s imported from Vienna, Saxony, and Norway is of a high quality. Also describes that, contrary to what ‘onkundige lieden’ think, the blaauwsel factories in Zaankant, Dordrecht and Rotterdam do not produce it themselves, but are only grinding, cleaning, and mixing it. Describes different uses of different grades; one grade is even used to clean paintings?" ] ;
+    schema:title "Oxydum Cobalti Cum Terra Sillicea" .
+
+user:1.62 a schema:Recipe ;
+    rdfs:label "Licht Ultramarijn blaauw (of het minst donkere blaauw)" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "M.P.L. Bouvier" ] ;
+    schema:dateCreated "1831"^^schema:Date ;
+    schema:identifier "1.62" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/30161774> ;
+    schema:keywords [ rdfs:label "ultramarine" ],
+        [ rdfs:label "drying" ],
+        [ rdfs:label "hemelsblauw" ],
+        [ rdfs:label "antwerpsch blaauw" ],
+        [ rdfs:label "ash" ],
+        [ rdfs:label "Smalt" ],
+        [ rdfs:label "cooked oil" ],
+        [ rdfs:label "dryer" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "Quite similar to 4.1 in its description, although from a slightly earlier date. describes various grades: strooiblauw, couleur, fijnblaauw, bleekblaauw, hoogblaauw, koningsblauw." ] ;
+    schema:title "Licht Ultramarijn blaauw (of het minst donkere blaauw)" ;
+    schema:translationOfWork [ a schema:Recipe ;
+            schema:dateCreated "1827"^^schema:Date ;
+            schema:inLanguage [ a schema:Language ;
+                    rdfs:label "French" ] ] ;
+    schema:translator [ a schema:Person ;
+            rdfs:label "J.C. Beijer" ] .
+
+user:1.63 a schema:Recipe ;
+    rdfs:label "Ultramarijn van de eerste kwaliteit, of het donkerste in blaauw" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "M.P.L. Bouvier" ] ;
+    schema:dateCreated "1831"^^schema:Date ;
+    schema:identifier "1.63" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/30161774> ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "Is more elaborate in its descriptions of the different grades. Highlights dutch production as well, especially in the Zaanse region where there is a broad variety of available smalts." ] ;
+    schema:title "Ultramarijn van de eerste kwaliteit, of het donkerste in blaauw" ;
+    schema:translationOfWork [ a schema:Recipe ;
+            schema:dateCreated "1827"^^schema:Date ;
+            schema:inLanguage [ a schema:Language ;
+                    rdfs:label "French" ] ] ;
+    schema:translator [ a schema:Person ;
+            rdfs:label "J.C. Beijer" ] .
+
+user:1.64 a schema:Recipe ;
+    rdfs:label "Kobalt blaauw of smalt" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "M.P.L. Bouvier" ] ;
+    schema:dateCreated "1831"^^schema:Date ;
+    schema:identifier "1.64" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/30161774> ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "Writes about the difference in price with ultramarine; best smalt comes from Basel (not the Netherlands?); 7/8 francs per ounce; talks about drying properties; you can mix it with other paints to dry quickly as it doesnt really affect the colour that much; describes hemelsblauw or bleu d’azur as a poor grade of smalt; also describes blauwe asschen and Antwerpsch blaauw to be adulterated; explicitly mentions adding to brown paints to let them dry more quickly; further on also writes about different mullers and those made of glass, stating not to worry about any glass that enters the paint as it won’t affect the colour and only maybe affect the drying rate; states to not use cooked oil and smalt together! p591; buy your ultramarine in Rome, not in France or Germany where it is often adulterated with smalt; quantity of smalt as a drier: 1/20th in an ultramarine paint;" ] ;
+    schema:title "Kobalt blaauw of smalt" ;
+    schema:translationOfWork [ a schema:Recipe ;
+            schema:dateCreated "1827"^^schema:Date ;
+            schema:inLanguage [ a schema:Language ;
+                    rdfs:label "French" ] ] ;
+    schema:translator [ a schema:Person ;
+            rdfs:label "J.C. Beijer" ] .
+
+user:1.65 a schema:Recipe ;
+    rdfs:label "Blaauw van Thénard, desgelijks uit de kobalt getrokken" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "M.P.L. Bouvier" ] ;
+    schema:dateCreated "1831"^^schema:Date ;
+    schema:identifier "1.65" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/30161774> ;
+    schema:title "Blaauw van Thénard, desgelijks uit de kobalt getrokken" ;
+    schema:translationOfWork [ a schema:Recipe ;
+            schema:dateCreated "1827"^^schema:Date ;
+            schema:inLanguage [ a schema:Language ;
+                    rdfs:label "French" ] ] ;
+    schema:translator [ a schema:Person ;
+            rdfs:label "J.C. Beijer" ] .
+
+user:1.66 a schema:Recipe ;
+    rdfs:label "Negentiende les. Zamenstelling en rangschikking der tinten van een palet, voor het opschilderen van het vleesch op den aanleg" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "M.P.L. Bouvier" ] ;
+    schema:dateCreated "1831"^^schema:Date ;
+    schema:identifier "1.66" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/30161774> ;
+    schema:title "Negentiende les. Zamenstelling en rangschikking der tinten van een palet, voor het opschilderen van het vleesch op den aanleg" ;
+    schema:translationOfWork [ a schema:Recipe ;
+            schema:dateCreated "1827"^^schema:Date ;
+            schema:inLanguage [ a schema:Language ;
+                    rdfs:label "French" ] ] ;
+    schema:translator [ a schema:Person ;
+            rdfs:label "J.C. Beijer" ] .
+
+user:1.67 a schema:Recipe ;
+    rdfs:label "Beproefde lijst der beste verwen voor het olieverw schilderen, eveneens derzelver meer of min droogende hoedanigheid" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "M.P.L. Bouvier" ] ;
+    schema:dateCreated "1831"^^schema:Date ;
+    schema:identifier "1.67" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/30161774> ;
+    schema:title "Beproefde lijst der beste verwen voor het olieverw schilderen, eveneens derzelver meer of min droogende hoedanigheid" ;
+    schema:translationOfWork [ a schema:Recipe ;
+            schema:dateCreated "1827"^^schema:Date ;
+            schema:inLanguage [ a schema:Language ;
+                    rdfs:label "French" ] ] ;
+    schema:translator [ a schema:Person ;
+            rdfs:label "J.C. Beijer" ] .
+
+user:1.68 a schema:Recipe ;
+    rdfs:label "Smalt" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Lodewijk Meyer" ] ;
+    schema:dateCreated "1669"^^schema:Date ;
+    schema:identifier "1.68" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf [ a schema:CreativeWork ;
+            rdfs:label "L. Meijers Woordenschat in drie deelen gescheiden […]" ] ;
+    schema:title "Smalt" .
+
+user:1.69 a schema:Recipe ;
+    rdfs:label "VIII. Van Purpere of Violette, t; welk uyt de voorsz. Bresilien spruyt, haar temperatie in diversche Formen" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Simon Witgeest" ;
+            schema:alternateName "Willem Goeree" ;
+            schema:sameAs [ a schema:Person ;
+                    rdfs:label "Willem Goeree" ] ] ;
+    schema:dateCreated "1698"^^schema:Date ;
+    schema:identifier "1.69" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301143776> ;
+    schema:title "VIII. Van Purpere of Violette, t; welk uyt de voorsz. Bresilien spruyt, haar temperatie in diversche Formen" .
+
+user:1.7 a schema:Recipe ;
+    rdfs:label "Directions in painting MEZZOTINT" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Stalker and Parker" ] ;
+    schema:dateCreated "1688"^^schema:Date ;
+    schema:hasPart [ a schema:Quotation ;
+            schema:about <http://vocab.getty.edu/aat/300179462> ;
+            schema:text "best fine smalt" ],
+        [ a schema:Quotation ;
+            schema:about <http://vocab.getty.edu/aat/300055694> ;
+            schema:text "4 or 5s. the pound" ] ;
+    schema:identifier "1.7" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "English" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301254483> ;
+    schema:keywords [ rdfs:label "bise" ],
+        [ rdfs:label "smalt" ],
+        [ rdfs:label "japanning" ],
+        [ rdfs:label "ultramarine" ],
+        [ rdfs:label "carramine" ],
+        [ rdfs:label "glazing" ],
+        [ rdfs:label "vermillion" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "Comparison with ultramarine price. Different ultramarine qualities." ] ;
+    schema:title "Directions in painting MEZZOTINT" .
+
+user:1.70 a schema:Recipe ;
+    rdfs:label "X. Van de smalt ofte bruyn Hemels-blaauw, waar toe sy dient in ’t aanleggen, diepen ende hoogen met hare temperantie" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Simon Witgeest" ;
+            schema:alternateName "Willem Goeree" ;
+            schema:sameAs [ a schema:Person ;
+                    rdfs:label "Willem Goeree" ] ] ;
+    schema:dateCreated "1698"^^schema:Date ;
+    schema:identifier "1.70" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301143776> ;
+    schema:title "X. Van de smalt ofte bruyn Hemels-blaauw, waar toe sy dient in ’t aanleggen, diepen ende hoogen met hare temperantie" .
+
+user:1.71 a schema:Recipe ;
+    rdfs:label "XI. van de Lakmoes en hoe men die temperen ende aanleggen sal." ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Simon Witgeest" ;
+            schema:alternateName "Willem Goeree" ;
+            schema:sameAs [ a schema:Person ;
+                    rdfs:label "Willem Goeree" ] ] ;
+    schema:dateCreated "1698"^^schema:Date ;
+    schema:identifier "1.71" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301143776> ;
+    schema:title "XI. van de Lakmoes en hoe men die temperen ende aanleggen sal." .
+
+user:1.72 a schema:Recipe ;
+    rdfs:label "XXIX. Van de Klippen, Steen-rotsen, marbre, Pylaren, of Ruwijnen, de welke verre ofte na by gelegen zijn." ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Simon Witgeest" ;
+            schema:alternateName "Willem Goeree" ;
+            schema:sameAs [ a schema:Person ;
+                    rdfs:label "Willem Goeree" ] ] ;
+    schema:dateCreated "1698"^^schema:Date ;
+    schema:identifier "1.72" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301143776> ;
+    schema:title "XXIX. Van de Klippen, Steen-rotsen, marbre, Pylaren, of Ruwijnen, de welke verre ofte na by gelegen zijn." .
+
+user:1.73 a schema:Recipe ;
+    rdfs:label "Lilium persicum" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Simon Witgeest" ;
+            schema:alternateName "Willem Goeree" ;
+            schema:sameAs [ a schema:Person ;
+                    rdfs:label "Willem Goeree" ] ] ;
+    schema:dateCreated "1698"^^schema:Date ;
+    schema:identifier "1.73" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301143776> ;
+    schema:title "Lilium persicum" .
+
+user:1.74 a schema:Recipe ;
+    rdfs:label "Belvedere" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Simon Witgeest" ;
+            schema:alternateName "Willem Goeree" ;
+            schema:sameAs [ a schema:Person ;
+                    rdfs:label "Willem Goeree" ] ] ;
+    schema:dateCreated "1698"^^schema:Date ;
+    schema:identifier "1.74" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301143776> ;
+    schema:title "Belvedere" .
+
+user:1.75 a schema:Recipe ;
+    rdfs:label "Van de koleur der naakten." ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Gérard de Lairesse" ] ;
+    schema:dateCreated "1712"^^schema:Date ;
+    schema:identifier "1.75" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301313832> ;
+    schema:title "Van de koleur der naakten." .
+
+user:1.76 a schema:Recipe ;
+    rdfs:label "Van de Verwen, gebuyk der zelve, en Coloriet der verschillende gesclahten" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Gérard de Lairesse" ] ;
+    schema:dateCreated "1712"^^schema:Date ;
+    schema:identifier "1.76" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301313832> ;
+    schema:title "Van de Verwen, gebuyk der zelve, en Coloriet der verschillende gesclahten" .
+
+user:1.77 a schema:Recipe ;
+    rdfs:label "Van de basreléves." ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Gérard de Lairesse" ] ;
+    schema:dateCreated "1712"^^schema:Date ;
+    schema:identifier "1.77" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301313832> ;
+    schema:title "Van de basreléves." .
+
+user:1.78 a schema:Recipe ;
+    rdfs:label "Een vertoog over ’t schaakspel" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Jacob Campo Weyerman" ] ;
+    schema:dateCreated "1724"^^schema:Date ;
+    schema:identifier "1.78" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301105741> ;
+    schema:title "Een vertoog over ’t schaakspel" .
+
+user:1.79 a schema:Recipe ;
+    rdfs:label "Aanmerkingen door Scheikundigen heer TEN HAAF" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "J. le Francq van Berkhey" ] ;
+    schema:dateCreated "1772/1776"^^schema:Date ;
+    schema:identifier "1.79" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301100344> ;
+    schema:title "Aanmerkingen door Scheikundigen heer TEN HAAF" .
+
+user:1.8 a schema:Recipe ;
+    rdfs:label "How to paint a Mezzo-tinto-Landskip on Glass, or otherwise" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Stalker and Parker" ] ;
+    schema:dateCreated "1688"^^schema:Date ;
+    schema:identifier "1.8" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "English" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301254483> ;
+    schema:keywords [ rdfs:label "white" ],
+        [ rdfs:label "hills" ],
+        [ rdfs:label "trees" ],
+        [ rdfs:label "japanning" ],
+        [ rdfs:label "sky" ],
+        [ rdfs:label "smalt" ],
+        [ rdfs:label "verdigris" ],
+        [ rdfs:label "glazing" ],
+        [ rdfs:label "mountains" ],
+        [ rdfs:label "varnish" ],
+        [ rdfs:label "pink" ],
+        [ rdfs:label "lake" ],
+        [ rdfs:label "ultramarine" ] ;
+    schema:title "How to paint a Mezzo-tinto-Landskip on Glass, or otherwise" .
+
+user:1.80 a schema:Recipe ;
+    rdfs:label "Smalt" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "P. Weiland" ] ;
+    schema:dateCreated "1807"^^schema:Date ;
+    schema:identifier "1.80" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "Dutch" ] ;
+    schema:isPartOf <http://www.worldcat.org/oclc/259977675> ;
+    schema:title "Smalt" .
+
+user:1.81 a schema:Recipe ;
+    rdfs:label "Of Colours in general, and of what materials they are composed, &c" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Anonymous" ] ;
+    schema:dateCreated "1967"^^schema:Date ;
+    schema:identifier "1.81" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "English" ] ;
+    schema:isPartOf [ a schema:CreativeWork ;
+            rdfs:label "Paduan Manuscript" ] ;
+    schema:title "Of Colours in general, and of what materials they are composed, &c" ;
+    schema:translationOfWork [ a schema:Recipe ;
+            schema:dateCreated "17th century"^^schema:Date ;
+            schema:inLanguage [ a schema:Language ;
+                    rdfs:label "Italian" ] ] ;
+    schema:translator [ a schema:Person ;
+            rdfs:label "Mrs. Mary P. Merrifield" ] .
+
+user:1.82 a schema:Recipe ;
+    rdfs:label "The composition and mixtures of the colours, and first of white lead." ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Anonymous" ] ;
+    schema:dateCreated "1967"^^schema:Date ;
+    schema:identifier "1.82" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "English" ] ;
+    schema:isPartOf [ a schema:CreativeWork ;
+            rdfs:label "Paduan Manuscript" ] ;
+    schema:title "The composition and mixtures of the colours, and first of white lead." ;
+    schema:translationOfWork [ a schema:Recipe ;
+            schema:dateCreated "17th century"^^schema:Date ;
+            schema:inLanguage [ a schema:Language ;
+                    rdfs:label "Italian" ] ] ;
+    schema:translator [ a schema:Person ;
+            rdfs:label "Mrs. Mary P. Merrifield" ] .
+
+user:1.83 a schema:Recipe ;
+    rdfs:label "Mixtures of Gialdolino" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Anonymous" ] ;
+    schema:dateCreated "1967"^^schema:Date ;
+    schema:identifier "1.83" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "English" ] ;
+    schema:isPartOf [ a schema:CreativeWork ;
+            rdfs:label "Paduan Manuscript" ] ;
+    schema:title "Mixtures of Gialdolino" ;
+    schema:translationOfWork [ a schema:Recipe ;
+            schema:dateCreated "17th century"^^schema:Date ;
+            schema:inLanguage [ a schema:Language ;
+                    rdfs:label "Italian" ] ] ;
+    schema:translator [ a schema:Person ;
+            rdfs:label "Mrs. Mary P. Merrifield" ] .
+
+user:1.84 a schema:Recipe ;
+    rdfs:label "The mixturesw of blues, smalto, and “biadetti”" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Anonymous" ] ;
+    schema:dateCreated "1967"^^schema:Date ;
+    schema:identifier "1.84" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "English" ] ;
+    schema:isPartOf [ a schema:CreativeWork ;
+            rdfs:label "Paduan Manuscript" ] ;
+    schema:title "The mixturesw of blues, smalto, and”biadetti\"" ;
+    schema:translationOfWork [ a schema:Recipe ;
+            schema:dateCreated "17th century"^^schema:Date ;
+            schema:inLanguage [ a schema:Language ;
+                    rdfs:label "Italian" ] ] ;
+    schema:translator [ a schema:Person ;
+            rdfs:label "Mrs. Mary P. Merrifield" ] .
+
+user:1.85 a schema:Recipe ;
+    rdfs:label "Of the shades in general, and how each of the abovementioned colours should be shaded" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Anonymous" ] ;
+    schema:dateCreated "1967"^^schema:Date ;
+    schema:identifier "1.85" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "English" ] ;
+    schema:isPartOf [ a schema:CreativeWork ;
+            rdfs:label "Paduan Manuscript" ] ;
+    schema:title "Of the shades in general, and how each of the abovementioned colours should be shaded" ;
+    schema:translationOfWork [ a schema:Recipe ;
+            schema:dateCreated "17th century"^^schema:Date ;
+            schema:inLanguage [ a schema:Language ;
+                    rdfs:label "Italian" ] ] ;
+    schema:translator [ a schema:Person ;
+            rdfs:label "Mrs. Mary P. Merrifield" ] .
+
+user:1.86 a schema:Recipe ;
+    rdfs:label "To make the colours stand in fresco" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Anonymous" ] ;
+    schema:dateCreated "1967"^^schema:Date ;
+    schema:identifier "1.86" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "English" ] ;
+    schema:isPartOf [ a schema:CreativeWork ;
+            rdfs:label "Paduan Manuscript" ] ;
+    schema:title "To make the colours stand in fresco" ;
+    schema:translationOfWork [ a schema:Recipe ;
+            schema:dateCreated "17th century"^^schema:Date ;
+            schema:inLanguage [ a schema:Language ;
+                    rdfs:label "Italian" ] ] ;
+    schema:translator [ a schema:Person ;
+            rdfs:label "Mrs. Mary P. Merrifield" ] .
+
+user:1.87 a schema:Recipe ;
+    rdfs:label "A most beautiful blue" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Anonymous" ] ;
+    schema:dateCreated "1967"^^schema:Date ;
+    schema:identifier "1.87" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "English" ] ;
+    schema:isPartOf [ a schema:CreativeWork ;
+            rdfs:label "Paduan Manuscript" ] ;
+    schema:title "A most beautiful blue" ;
+    schema:translationOfWork [ a schema:Recipe ;
+            schema:dateCreated "17th century"^^schema:Date ;
+            schema:inLanguage [ a schema:Language ;
+                    rdfs:label "Italian" ] ] ;
+    schema:translator [ a schema:Person ;
+            rdfs:label "Mrs. Mary P. Merrifield" ] .
+
+user:1.88 a schema:Recipe ;
+    rdfs:label "Beautiful smaltino" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Anonymous" ] ;
+    schema:dateCreated "1967"^^schema:Date ;
+    schema:identifier "1.88" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "English" ] ;
+    schema:isPartOf [ a schema:CreativeWork ;
+            rdfs:label "Paduan Manuscript" ] ;
+    schema:title "Beautiful smaltino" ;
+    schema:translationOfWork [ a schema:Recipe ;
+            schema:dateCreated "17th century"^^schema:Date ;
+            schema:inLanguage [ a schema:Language ;
+                    rdfs:label "Italian" ] ] ;
+    schema:translator [ a schema:Person ;
+            rdfs:label "Mrs. Mary P. Merrifield" ] .
+
+user:1.89 a schema:Recipe ;
+    rdfs:label "Painters use several colours in finishing the pictures and in painting in gum, oil, or water, without trituration, grinding &c." ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Pierre le Brun" ] ;
+    schema:dateCreated "1967"^^schema:Date ;
+    schema:identifier "1.89" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "English" ] ;
+    schema:isPartOf [ a schema:CreativeWork ;
+            rdfs:label "Brussels manuscript" ] ;
+    schema:title "Painters use several colours in finishing the pictures and in painting in gum, oil, or water, without trituration, grinding &c." ;
+    schema:translationOfWork [ a schema:Recipe ;
+            schema:dateCreated "1635"^^schema:Date ;
+            schema:inLanguage [ a schema:Language ;
+                    rdfs:label "French" ] ] ;
+    schema:translator [ a schema:Person ;
+            rdfs:label "Mrs. Mary P. Merrifield" ] .
+
+user:1.9 a schema:Recipe ;
+    rdfs:label "How to paint changeable Drapery" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Stalker and Parker" ] ;
+    schema:dateCreated "1688"^^schema:Date ;
+    schema:identifier "1.9" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "English" ] ;
+    schema:isPartOf <https://id.rijksmuseum.nl/301254483> ;
+    schema:keywords [ rdfs:label "japanning" ],
+        [ rdfs:label "ultramarine" ],
+        [ rdfs:label "purple" ],
+        [ rdfs:label "masticot" ],
+        [ rdfs:label "glazing" ],
+        [ rdfs:label "smalt" ],
+        [ rdfs:label "varnish" ],
+        [ rdfs:label "drapery" ],
+        [ rdfs:label "lake" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "Smalt in varnish" ] ;
+    schema:title "How to paint changeable Drapery" .
+
+user:1.90 a schema:Recipe ;
+    rdfs:label "Cerulée" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Pierre le Brun" ] ;
+    schema:dateCreated "1967"^^schema:Date ;
+    schema:identifier "1.90" ;
+    schema:inLanguage [ a schema:Language ;
+            rdfs:label "English" ] ;
+    schema:isPartOf [ a schema:CreativeWork ;
+            rdfs:label "Brussels manuscript" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "Footnote in Merrifield:”A marginal note states that this recipe was extracted from the “essay de Nature.” This pigment is the Vestorian Azure of Vitruvius, the Azzurro di Pozzuoli and Smaltino of the Italian writers; the term turquin - turchino, evidently shows its Italian origin." ] ;
+    schema:title "Cerulée" ;
+    schema:translationOfWork [ a schema:Recipe ;
+            schema:dateCreated "1635"^^schema:Date ;
+            schema:inLanguage [ a schema:Language ;
+                    rdfs:label "French" ] ] ;
+    schema:translator [ a schema:Person ;
+            rdfs:label "Mrs. Mary P. Merrifield" ] .
+
+user:1.91 a schema:Recipe ;
+    rdfs:label "In pictures exposed to the air, artificial colours should not be employed" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Pierre le Brun" ] ;
+    schema:dateCreated "1967"^^schema:Date ;
+    schema:identifier "1.91" ;
+    schema:isPartOf [ a schema:CreativeWork ;
+            rdfs:label "Brussels manuscript" ] ;
+    schema:title "In pictures exposed to the air, artificial colours should not be employed" ;
+    schema:translator [ a schema:Person ;
+            rdfs:label "Mrs. Mary P. Merrifield" ] .
+
+user:1.92 a schema:Recipe ;
+    rdfs:label "To make blue draperies which are very beautiful" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author [ a schema:Person ;
+            rdfs:label "Pierre le Brun" ] ;
+    schema:dateCreated "1967"^^schema:Date ;
+    schema:identifier "1.92" ;
+    schema:isPartOf [ a schema:CreativeWork ;
+            rdfs:label "Brussels manuscript" ] ;
+    schema:subjectOf [ a schema:Comment ;
+            schema:author <mailto:p.v.l@rijksmuseum.nl> ;
+            schema:text "Footnote in Merrifield:”Azure in powder. This appears to be a good method of painting blue draperies, because no oil is necessary but that which cements the black and white. This method of employing azure in powder was common in France, as appears from a passage in the Traité de Mignature de Cristophe Ballard (Lyon, 1693 – the first edition was published in 1682), p. 217. In the latter wrk the azure is called “email,” and was probably smalt or the Italian Smaltino, which all persons agree was extremely difficult to use on account of its gritty texture. And see mr. Eastlake’s ‘Materials &c., p. 455.\"" ] ;
+    schema:title "To make blue draperies which are very beautiful" ;
+    schema:translator [ a schema:Person ;
+            rdfs:label "Mrs. Mary P. Merrifield" ] .
+
+<http://www.example.com/data/recipes.ttl> rdfs:label "recipe.ttl" .
+
+user:recipes a schema:Dataset ;
+    rdfs:label "Smalt Recipe Database" ;
+    schema:about <http://vocab.getty.edu/aat/300013293> ;
+    schema:author <mailto:p.van.laar@rijksmuseum.nl> ;
+    schema:conforms_to <http://schema.org> ;
+    schema:dateCreated "2022-01-11"^^schema:Date ;
+    schema:distribution [ a schema:DataDownload ;
+            schema:contentUrl <http://www.example.com/data/recipes.ttl> ;
+            schema:encodingFormat "text/turtle" ] ;
+    schema:hasPart user:1.1.html,
+        user:1.2.html,
+        user:1.3.html,
+        user:1.4.html,
+        user:1.5.html .
+
+user:vocabulary a schema:Dataset ;
+    rdfs:label "Vocabulary" ;
+    schema:Languages <http://vocab.getty.edu/aat/300388277>,
+        <http://vocab.getty.edu/aat/300388344> ;
+    schema:People_and_Groups <http://www.wikidata.org/entity/Q2508243>,
+        <http://www.wikidata.org/entity/Q99674505>,
+        <mailto:p.van.laar@rijksmuseum.nl> ;
+    schema:Processes <http://vocab.getty.edu/aat/300053090>,
+        <http://vocab.getty.edu/aat/300053797>,
+        <http://vocab.getty.edu/aat/300053825>,
+        <http://vocab.getty.edu/aat/300379980>,
+        <http://vocab.getty.edu/aat/300404385> ;
+    schema:Substances_and_Objects <http://vocab.getty.edu/aat/300011029>,
+        <http://vocab.getty.edu/aat/300011691>,
+        <http://vocab.getty.edu/aat/300012866>,
+        <http://vocab.getty.edu/aat/300013173>,
+        <http://vocab.getty.edu/aat/300013293>,
+        <http://vocab.getty.edu/aat/300013445>,
+        <http://vocab.getty.edu/aat/300013754>,
+        <http://vocab.getty.edu/aat/300014254>,
+        <http://vocab.getty.edu/aat/300014341>,
+        <http://vocab.getty.edu/aat/300128438>,
+        <http://vocab.getty.edu/aat/300201088>,
+        <http://vocab.getty.edu/aat/300435425> .
 
 <http://www.wikidata.org/entity/Q2508243> a schema:Person ;
     rdfs:label "Valentin Boltz" .
 
+<http://www.wikidata.org/entity/Q99674505> a schema:Organization ;
+    rdfs:label "Stalker and Parker" .
+
+<http://www.worldcat.org/oclc/1147874076> a schema:CreativeWork ;
+    rdfs:label "Woordenboek van droogerijen: bevattende eene uitvoerige beschrijving der onderscheidene in den handel der droogerijen begrepene voorwerpen, zoo wel, van die, welke onmiddellijk uit een van de drie rijken der natuur ontleend, als van die, welke door scheikundige bewerking in het groot, fabrijkmatig verkregen worden : alsmede aanwijzing van het gebruik, waartoe dezelve in het algemeen en inzonderheid in de genees- en artsenijmengkunde worden aangewend, Volume 3" .
+
+<http://www.worldcat.org/oclc/259977675> a schema:CreativeWork ;
+    rdfs:label "Nederduitsch taalkundig woordenboek" .
+
+<http://www.worldcat.org/oclc/914339147> a schema:CreativeWork ;
+    rdfs:label "Zakwoordenboek der scheikunde en der scheikundige bewerkingen." .
+
+<https://id.rijksmuseum.nl/301100339> a schema:CreativeWork ;
+    rdfs:label "Natuurlijke en oordeelkundige beschrijving der verfwaren: met onderscheidene bijvoegsels en aanmerkingen verrijkt, gedurende een aantal van jaren, met veel moeite en zorg, door eigen onderzoek en ondervinding" .
+
+<https://id.rijksmuseum.nl/301100344> a schema:CreativeWork ;
+    rdfs:label "Natuurlyke historie van holland" .
+
+<https://id.rijksmuseum.nl/301105741> a schema:CreativeWork ;
+    rdfs:label "Den Ontleeder der gebreeken" .
+
 <mailto:p.van.laar@rijksmuseum.nl> rdfs:label "Paul van Laar" .
+
+<https://id.rijksmuseum.nl/301313832> a schema:CreativeWork ;
+    rdfs:label "Groot Schilderboek" .
+
+<https://id.rijksmuseum.nl/30168468> a schema:CreativeWork ;
+    rdfs:label "Illuminierbuch" .
+
+<https://id.rijksmuseum.nl/301143776> a schema:CreativeWork ;
+    rdfs:label "Het verbetert en vermeerdert natuurlyk toover-boek. Of ’t nieuw speel-toneel der konsten" .
+
+<https://id.rijksmuseum.nl/30161774> a schema:CreativeWork ;
+    rdfs:label "Handboek voor jonge beoeffenaars der schilderkunst" .
+
+<http://vocab.getty.edu/aat/300179462> rdfs:label "quality" .
+
+<http://www.worldcat.org/oclc/63446491> a schema:CreativeWork ;
+    rdfs:label "Algemeen huishoudelijk-, natuur-, zedekundig- en konst-woordenboek, […] volume 2",
+        "Algemeen huishoudelijk-, natuur-, zedekundig- en konst-woordenboek, […] volume 5" .
+
+<https://id.rijksmuseum.nl/301254483> a schema:CreativeWork ;
+    rdfs:label "Raadgever voor den burger en landman",
+        "Treatise of Japanning and Varnishing" .
+
+<https://id.rijksmuseum.nl/301301429> a schema:CreativeWork ;
+    rdfs:label "l’Arte Vetraria" .
+
+<mailto:p.v.l@rijksmuseum.nl> rdfs:label "Paul van Laar" .
 
 <http://vocab.getty.edu/aat/300013293> a schema:ChemicalSubstance ;
     rdfs:label "Smalt",
@@ -238,7 +2311,8 @@
     schema:alternateName "Edelen schmeltzblau",
         "Edelen schmeltze",
         "Schmeltzesch",
+        "azur-blaauw",
         "edel köstliches blau",
-        "schmeltze",
-        "smalt" .
+        "lazuur",
+        "schmeltze" .
 
